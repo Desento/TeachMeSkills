@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url('/homework4/font/HindSiliguri-Regular.eot');
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'),
+        url('/homework4/font/HindSiliguri-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/homework4/font/HindSiliguri-Regular.woff2') format('woff2'),
+        url('/homework4/font/HindSiliguri-Regular.woff') format('woff'),
+        url('/homework4/font/HindSiliguri-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+.content{
+    display: flex;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+}
+.card{
+    background: linear-gradient(to right, blue, pink);
+    margin: auto;
+    width: 815px;
+    height: 230px;
+    display: flex;
+}
+img{
+    max-width: 830px;
+    max-height: 215px;
+}
