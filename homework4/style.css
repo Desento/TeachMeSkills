@@ -17,7 +17,7 @@
     width: 1000px;
     margin: auto;
 }
-.card{
+.card__body{
     background: linear-gradient(to right, blue, pink);
     margin: auto;
     width: 815px;
@@ -28,3 +28,9 @@ img{
     max-width: 830px;
     max-height: 215px;
 }
+
+p, a {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
