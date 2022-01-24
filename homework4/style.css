@@ -10,27 +10,62 @@
 }
 
 .content{
+    margin: auto;
     display: flex;
 }
 
-.main{
-    width: 1000px;
-    margin: auto;
-}
 .card__body{
-    background: linear-gradient(to right, blue, pink);
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
     margin: auto;
-    width: 815px;
-    height: 230px;
-    display: flex;
+    width: 555px;
+    height: 296px;
+    margin: 0px 5px 0px 51px;
+    position: relative;
+    border-radius: 3px;
 }
-img{
-    max-width: 830px;
-    max-height: 215px;
+.card__item__description, .card__item, a{
+font-family: 'Hind Siliguri', sans-serif;
 }
-
-p, a {
-    font-family: 'Hind Siliguri', sans-serif;
+.card__item__description{
+color: #F4F9FC;
+font-size: 16px;
+line-height: 27px;
+font-weight: 500;
+opacity: 0.6;
+margin-bottom: -22px;
 }
+.card__item{
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+color: #F4F9FC;
+width: 300px;
+margin-bottom: 10px;
+}
+.card__full{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+color: #F4F9FC;
 
-
+}
+.card__text{
+    margin: 77px 0px 0px 35px;
+    
+}
+.dron{
+    max-width: 65%;
+    position: absolute;
+    top: -24px;
+    left: 230px;
+}
+.camera{
+    max-width: 50%;
+    position: absolute;
+    top: 38px;
+    left: 272px;
+}
