@@ -101,7 +101,7 @@ color: #F4F9FC;
     color: #030D15;
     opacity: 0.6;
 }
-li {
+li {padding-left: 20px;
     font-family: 'Hind Siliguri', sans-serif;
     width: 372px;
     list-style-type: none;
