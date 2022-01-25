@@ -101,23 +101,26 @@ color: #F4F9FC;
     color: #030D15;
     opacity: 0.6;
 }
-li {padding-left: 20px;
-    font-family: 'Hind Siliguri', sans-serif;
-    width: 372px;
+ul{
+    list-style-image: url('img/Group23.svg') ;
+}
+li {font-family: 'Hind Siliguri', sans-serif;
+    width: 400px;
     list-style-type: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 27px;
     color: #030D15;
     margin: 20px 0px;}
- li:before {
-    content: url('img/Vector.png');
-    background: url('img/Ellipse\ 4.png');
-    width: 10px;
-    border-radius: 50%;
-    background-position:center;
-    background-size: cover;
- }
+ /* li:before {
+    content:'';
+    background: url('img/Group23.svg');
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+} */
 .main__foto{
     margin: 50px 100px 0px 50px;
 }
