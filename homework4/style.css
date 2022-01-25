@@ -101,9 +101,9 @@ color: #F4F9FC;
     color: #030D15;
     opacity: 0.6;
 }
-ul{
+/* ul{
     list-style-image: url('img/Group23.svg') ;
-}
+} */
 li {font-family: 'Hind Siliguri', sans-serif;
     width: 400px;
     list-style-type: none;
@@ -112,7 +112,7 @@ li {font-family: 'Hind Siliguri', sans-serif;
     line-height: 27px;
     color: #030D15;
     margin: 20px 0px;}
- /* li:before {
+ li:before {
     content:'';
     background: url('img/Group23.svg');
     width: 18px;
@@ -120,7 +120,7 @@ li {font-family: 'Hind Siliguri', sans-serif;
     display: inline-block;
     vertical-align: middle;
     margin-right: 25px;
-} */
+}
 .main__foto{
     margin: 50px 100px 0px 50px;
 }
