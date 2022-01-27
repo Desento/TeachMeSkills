@@ -1,3 +1,100 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Regular.eot');
+    src: url('../fonts/raleway/Raleway-Regular.eot') format('eot'),
+    url('../fonts/raleway/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular.eot');
+    src: url('../fonts/opensans/OpenSans-Regular.eot') format('eot'),
+    url('../fonts/raleway/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
 body{
     background-color: #F5F5F5;
+}
+
+.header{
+    margin:0 auto;
+}
+.title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.title:after{
+    content: '';
+    display: block;
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    margin-top: 38px;
+}
+.info{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 485px;
+}
+.first_column, .second_column, .third_column{
+    margin: 0px 15px;
+    width: 270px;
+}
+.second_column{
+    align-self: start;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.column p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    }
+.tariff{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    height: 50px;
+}
+.price{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    height: 85px;
+}
+.period{
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    height: 50px;
+}
+.option{
+    color: #86878B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5; 
+}
+.dark{
+    
+    background: #333333;
+    border: 2px solid #F5F5F5;
 }
