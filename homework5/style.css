@@ -42,21 +42,21 @@ body{
     font-size: 18px;
     line-height: 21px;
 }
-.column{
+.columns{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 485px;
 }
-.first_column, .second_column, .third_column{
+.columns__column{
     margin: 0px 15px;
     width: 270px;
 }
-.second_column{
+.columns__column__up{
     align-self: start;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.column p{
+.columns__column p{
     display: flex;
     align-items: center;
     justify-content: center;
