@@ -87,3 +87,97 @@
   border-radius: 5px;
   z-index: 0;
 }
+
+
+/* как бы я сделала */
+
+.container {
+  width: 100%;
+  padding: 130px 0;
+  background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-info {
+  max-width: 730px;
+  width: 100%;
+  height: 390px;
+
+  position: relative;
+
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.block-info::after {
+  content: "";
+  background: #FFFFFF;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+  width: 678px;
+  height: 363px;
+  left: calc(50% - 339px);
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: -28px;
+  background: #FFFFFF;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+}
+
+.block-info::before {
+  content: "";
+  background: #FFFFFF;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+  width: 618px;
+  height: 331px;
+  left: calc(50% - 309px);
+  position: absolute;
+  z-index: -1;
+  display: block;
+  bottom: -58px;
+  background: white;
+}
+
+.block-info__text-container::before {
+  content: "";
+  max-width: 730px;
+  width: 100%;
+  height: 390px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  left: 0;
+  top: 0;
+}
+
+.block-info__text-container {
+  padding: 106px 82px 86px;
+}
+
+.block-info__text {
+  z-index: 3;
+  position: relative;
+  text-align: center;
+  color: #94a2b3;
+  font-family: "Circular Std", sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.block-info__text::before{
+  content: "";
+  background: url(./img/cov.svg);
+  position: absolute;
+  z-index: -1;
+  width: 234px;
+  height: 168px;
+  background-size: cover;
+  left: calc(365px - 117px - 86px);
+  top: -70px;
+}
