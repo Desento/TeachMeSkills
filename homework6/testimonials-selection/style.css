@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url("/homework6/testimonials-selection/font/CircularStd-Book.eot");
+  src: local("Circular Std Regular"), local("CircularStd-Regular"),
+    url("/homework6/testimonials-selection/font/CircularStd-Book.eot?#iefix")
+      format("embedded-opentype"),
+    url("/homework6/testimonials-selection/font/CircularStd-Book.woff2")
+      format("woff2"),
+    url("/homework6/testimonials-selection/font/CircularStd-Book.woff")
+      format("woff"),
+    url("/homework6/testimonials-selection/font/CircularStd-Book.ttf")
+      format("truetype");
+  font-style: normal;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  width: 1255px;
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+}
+.title {
+  margin: 50px auto;
+  text-align: center;
+  width: 28%;
+  height: 19%;
+  font-family: "Circular Std", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  color: #272d4e;
+}
+
+.subtitle {
+  display: flex;
+  width: 24%;
+  height: 23%;
+  margin: 50px auto;
+  border-radius: 5px;
+  padding: 3%;
+  background: white;
+}
+.text {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  color: #94a2b3;
+  font-family: "Circular Std", sans-serif;
+  font-size: 13.7px;
+  line-height: 23px;
+  background-image: url("/homework6/testimonials-selection/img/cov.svg");
+}
+
