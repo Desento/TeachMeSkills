@@ -11,14 +11,7 @@
 
 .content {
   margin: 0 auto;
-  background: linear-gradient(
-    180deg,
-    rgba(236, 240, 253, 0) 0%,
-    rgba(236, 240, 253, 0.53) 14.32%,
-    #ecf0fd 45.83%,
-    rgba(236, 240, 253, 0.43) 84.33%,
-    rgba(236, 240, 253, 0) 100%
-  );
+  position: relative;
 }
 .title {
   margin: 50px auto;
@@ -30,9 +23,14 @@
   font-size: 35px;
   line-height: 45px;
   color: #272d4e;
+  position: relative;
 }
 .container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   background: linear-gradient(
     180deg,
     rgba(236, 240, 253, 0) 0%,
@@ -41,10 +39,6 @@
     rgba(236, 240, 253, 0.43) 84.33%,
     rgba(236, 240, 253, 0) 100%
   );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .block-info {
@@ -122,7 +116,7 @@
   left: calc(365px - 117px - 86px);
   top: -70px;
 }
-.container::after {
+.title::after {
   content: "";
   background: url(./img/green.svg);
   position: absolute;
@@ -130,6 +124,68 @@
   width: 369px;
   height: 165px;
   background-size: cover;
-  left: 374px;
-  top: 518px;
+  left: 50%;
+  transform: translate(-123%, 350%);
+  bottom: -50%;
+}
+
+.title::before {
+  content: "";
+  background: url(./img/red.svg);
+  position: absolute;
+  z-index: -1;
+  width: 369px;
+  height: 165px;
+  background-size: cover;
+  left: 50%;
+  transform: translate(28%, 150%);
+  bottom: 50%;
+}
+.container::before {
+  content: "";
+  background: url(./img/left.svg);
+  position: absolute;
+  z-index: -1;
+  width: 50px;
+  height: 25px;
+  background-size: cover;
+  left: 50%;
+  transform: translate(175%, 1225%);
+  bottom: 50%;
+}
+.container::after {
+  content: "";
+  background: url(./img/rigth.svg);
+  position: absolute;
+  z-index: -1;
+  width: 64px;
+  height: 30px;
+  background-size: cover;
+  left: 50%;
+  transform: translate(240%, 1031%);
+  bottom: 50%;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+.first {
+  transform: translate(-400%, -75%);
+}
+
+.second {
+  transform: translate(-700%, 100%);
+}
+.third {
+  transform: translate(-560%, 280%);
+}
+.fourth {
+  transform: translate(300%, -75%);
+}
+.fifth {
+  transform: translate(269%, 60%);
+}
+.sixth {
+  transform: translate(480%, 350%);
 }
