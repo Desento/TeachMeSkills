@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/raleway/Raleway-Regular.eot");
+  src: url("./fonts/raleway/Raleway-Regular.eot") format("eot"),
+    url("./fonts/raleway/Raleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/opensans/OpenSans-Regular.eot");
+  src: url("./fonts/opensans/OpenSans-Regular.eot") format("eot"),
+    url("./fonts/raleway/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
