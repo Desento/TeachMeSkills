@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fronts/raleway/Raleway-Regular.eot");
+  src: url("./fronts/raleway/Raleway-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fronts/raleway/Raleway-Regular.woff2") format("woff2"),
+    url("./fronts/raleway/Raleway-Regular.woff") format("woff"),
+    url("./fronts/raleway/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fronts/opensans/OpenSans-Regular.eot");
+  src: url("./fronts/opensans/OpenSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fronts/opensans/OpenSans-Regular.woff2") format("woff2"),
+    url("./fronts/opensans/OpenSans-Regular.woff") format("woff"),
+    url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+.main {
+  width: 1170px;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Raleway";
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #86878b;
+}
+.title:after {
+  content: "";
+  display: block;
+  width: 170px;
+  border: 1px solid #ec7979;
+  margin: 25px auto;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-review {
+  margin: 0 15px;
+}
+.block-review-text-container {
+  padding: 20px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  position: relative;
+}
+.block-review-text-container__text::after {
+  content: "";
+  background: url(./img/pol.svg);
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+}
+.block-review-text-container__text {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+
+  color: #86878b;
+}
+.block-review-user {
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.block-review-user__logo {
+  margin-right: 15px;
+}
+
+.block-review-user-name__full-name {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.block-review-user-name__position {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+}
+
+/* как можно зафиксировать высоту блок дабы при переносе имени он не менялся */
+/* не получилось зафиксировать стрелку коментария */
