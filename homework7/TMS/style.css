@@ -19,6 +19,9 @@
     url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
   font-style: normal;
 }
+body {
+  margin: 0;
+}
 .header {
   width: 100%;
   display: flex;
@@ -81,14 +84,17 @@ ul a {
   left: 0;
   z-index: -1;
 }
+.main .container-block {
+  justify-content: center;
+}
 .main-info {
-  max-width: 42%;
-  margin-right: 20px;
+  max-width: 55%;
+  margin-right: 25px;
 }
 .main-info__title {
   font-family: "Raleway";
   font-weight: 500;
-  font-size: 37px;
+  font-size: 48px;
   color: white;
 }
 .main-info__title::after {
@@ -119,6 +125,7 @@ ul a {
 }
 .main-form {
   width: 37%;
+  height: 80%;
   background: white;
   border-radius: 5px;
   text-align: center;
@@ -128,7 +135,7 @@ ul a {
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 10px;
+  margin: 10px 10px 30px 10px;
 }
 .main-form__title_colortext {
   color: #ec7979;
@@ -152,7 +159,7 @@ ul a {
   font-weight: 600;
   font-size: 18px;
   padding: 25px 91px;
-  margin-top: 39px;
+  margin-top: 15px;
   background-color: #ec7979;
   border: 1px solid #ec7979;
   border-radius: 0px 0px 5px 5px;
@@ -167,6 +174,7 @@ ul a {
 }
 .social-text {
   width: 40%;
+  padding: 15px;
 }
 .social-link {
   width: 50%;
@@ -179,7 +187,7 @@ ul a {
   margin: 0 10px;
 }
 .social-text__title {
-  margin: 20px 0;
+  margin-bottom: 20px;
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 700;
@@ -283,6 +291,7 @@ footer img {
   align-items: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
 }
 i {
   color: #cccccc;
