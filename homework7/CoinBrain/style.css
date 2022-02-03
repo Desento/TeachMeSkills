@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.main {
+  margin: 0px auto;
+  width: 100%;
+  position: relative;
+  padding: 150px 0;
+  z-index: 3;
+  background-image: url(./img/image.jpg);
+}
+.main::before {
+  content: "";
+  position: absolute;
+  background-image: url(./img/top.svg);
+}
+.container-block {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

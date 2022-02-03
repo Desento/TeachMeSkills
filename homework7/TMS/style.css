@@ -173,11 +173,9 @@ ul a {
   background: #f8efef;
 }
 .social-text {
-  width: 40%;
   padding: 15px;
 }
 .social-link {
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -276,23 +274,20 @@ footer {
 }
 
 .footer__social-icon {
-  width: 50%;
-  margin: 50px auto;
+  margin: 15px auto;
   display: flex;
   justify-content: space-around;
 }
-footer img {
-  width: 100%;
-  margin: 0 10px;
-}
+
 .footer__license {
   font-family: "Raleway";
   font-size: 18px;
   align-items: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 i {
+  margin: 25px;
   color: #cccccc;
 }
