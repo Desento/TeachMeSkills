@@ -173,6 +173,7 @@ input {
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .social img {
   width: 100%;
@@ -268,9 +269,10 @@ footer {
 }
 
 .footer__social-icon {
+  width: 50%;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 footer img {
   width: 100%;
@@ -282,4 +284,7 @@ footer img {
   align-items: center;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
+}
+i {
+  color: #cccccc;
 }
