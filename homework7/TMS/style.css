@@ -19,11 +19,6 @@
     url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
   font-style: normal;
 }
-
-body {
-  margin: 0;
-}
-
 .header {
   width: 100%;
   display: flex;
@@ -78,6 +73,8 @@ ul a {
   content: "";
   position: absolute;
   background-image: url(./img/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   top: 0;
@@ -109,7 +106,7 @@ ul a {
   line-height: 21px;
   color: white;
 }
-.main-info__downloadbtn {
+.main-info__download-btn {
   color: white;
   font-family: "Open Sans";
   font-weight: 600;
@@ -137,8 +134,7 @@ ul a {
   color: #ec7979;
 }
 
-input[type="text"],
-input[type="password"] {
+input {
   width: 75%;
   padding: 15px;
   margin: 5px 0px 22px 0px;
@@ -150,7 +146,7 @@ input[type="password"] {
   color: #bdbdbd;
 }
 
-.main-form__registerbtn {
+.main-form__register-btn {
   width: 100%;
   color: white;
   font-family: "Open Sans";
@@ -165,21 +161,10 @@ input[type="password"] {
 }
 
 .social {
-  width: 1170px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
   position: relative;
-}
-.social::after {
-  content: "";
   background: #f8efef;
-  margin: 0 auto;
-  width: 114%;
-  height: 100%;
-  position: absolute;
-  left: -10%;
-  z-index: -1;
 }
 .social-text {
   width: 40%;
@@ -207,19 +192,21 @@ input[type="password"] {
   margin-bottom: 10px;
 }
 .desing {
-  width: 1170px;
   margin: 0 auto;
+  width: 100%;
   position: relative;
+  z-index: 3;
+  padding: 55px 0px;
 }
 .desing::after {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   margin: 0 auto;
-  width: 114%;
-  height: 130%;
-  top: -24%;
-  left: -10%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   z-index: -1;
 }
 
@@ -227,19 +214,25 @@ input[type="password"] {
   content: "";
   background: url(./img/desing.jpg);
   position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0 auto;
-  width: 114%;
-  height: 130%;
-  top: -24%;
-  left: -10%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   z-index: -1;
+}
+.desing .container-block,
+.footer .container-block {
+  flex-direction: column;
+  align-items: center;
 }
 .desing__title {
   font-family: "Raleway";
   font-size: 36px;
   text-align: center;
   color: #ffffff;
-  margin: 80px;
 }
 .desing__title::after {
   content: "";
@@ -254,35 +247,26 @@ input[type="password"] {
   text-align: center;
   color: #ffffff;
 }
-.desing__downloadbtn {
+.desing__download-btn {
   color: white;
   font-family: "Open Sans";
   font-weight: 600;
   line-height: 25px;
-  font-size: 18px;
-  padding: 15px 91px;
-  margin: 39px 0;
-  transform: translateX(170%);
+  font-size: 24px;
+  padding: 25px 100px;
+  margin: 50px 0;
   background-color: transparent;
   border: 1px solid white;
   cursor: pointer;
 }
 footer {
-  margin: 0 auto;
-  width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   position: relative;
-}
-footer::before {
-  content: "";
-  margin: 0 auto;
-  width: 114%;
-  height: 124%;
   background-color: black;
-  position: absolute;
-  left: -10%;
-  top: -18%;
-  z-index: -1;
 }
+
 .footer__social-icon {
   margin: 50px auto;
   display: flex;
