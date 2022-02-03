@@ -219,7 +219,7 @@ input[type="password"] {
   margin: 0 auto;
   width: 114%;
   height: 130%;
-  top: -23%;
+  top: -24%;
   left: -10%;
   z-index: -1;
 }
@@ -231,7 +231,7 @@ input[type="password"] {
   margin: 0 auto;
   width: 114%;
   height: 130%;
-  top: -23%;
+  top: -24%;
   left: -10%;
   z-index: -1;
 }
@@ -267,4 +267,36 @@ input[type="password"] {
   background-color: transparent;
   border: 1px solid white;
   cursor: pointer;
+}
+footer {
+  margin: 0 auto;
+  width: 1170px;
+  position: relative;
+}
+footer::before {
+  content: "";
+  margin: 0 auto;
+  width: 114%;
+  height: 124%;
+  background-color: black;
+  position: absolute;
+  left: -10%;
+  top: -18%;
+  z-index: -1;
+}
+.footer__social-icon {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 100%;
+  margin: 0 10px;
+}
+.footer__license {
+  font-family: "Raleway";
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
