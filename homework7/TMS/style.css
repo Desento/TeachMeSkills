@@ -265,7 +265,7 @@ ul a {
   border: 1px solid white;
   cursor: pointer;
 }
-footer {
+.footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
