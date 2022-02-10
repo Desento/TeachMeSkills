@@ -19,6 +19,9 @@
     url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
   font-style: normal;
 }
+body * {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
@@ -46,21 +49,30 @@ body {
   color: white;
   margin: 0 25px;
 }
-.header__menu #menu {
+#menu,
+#hashtag {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .header__menu a:not(:last-child) {
     display: none;
   }
-  .header__menu #menu {
+  .social-link a:not(:last-child) {
+    display: none;
+  }
+  #menu {
     display: block;
+    font-size: 20px;
+  }
+  #hashtag {
+    display: block;
+    font-size: 50px;
   }
 }
 .container-block {
   margin: 0 auto;
   padding: 15px;
-  max-width: 1170px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -72,6 +84,18 @@ body {
 .contact .container-block,
 .footer .container-block {
   display: block;
+}
+@media (max-width: 768px) {
+  .main .container-block {
+    flex-wrap: wrap;
+  }
+  .main-info {
+    max-width: 75%;
+    margin: 0 0 20px 0;
+  }
+  .main-form {
+    max-width: 75%;
+  }
 }
 .main {
   margin: 0 auto;
@@ -105,8 +129,8 @@ body {
 }
 
 .main-info {
-  max-width: 55%;
-  margin-right: 25px;
+  flex: 1 1 66.666%;
+  padding-right: 25px;
 }
 .main-info__title {
   font-family: "Raleway";
@@ -114,6 +138,11 @@ body {
   font-size: 48px;
   color: white;
 }
+/* @media (max-width: 576px) {
+  .main-info__title {
+    font-size: 24px;
+  }
+} */
 .main-info__title::after {
   content: "";
   display: block;
@@ -130,29 +159,33 @@ body {
   color: white;
 }
 .main-info__download-btn {
+  max-width: 50%;
+  min-width: 30%;
   color: white;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
-  padding: 15px 91px;
+  padding: 15px;
   margin-top: 39px;
   background-color: transparent;
   border: 1px solid white;
   cursor: pointer;
 }
 .main-form {
-  width: 37%;
-  height: 80%;
+  flex: 1 1 33.333%;
+  text-align: center;
+}
+.container {
   background: white;
   border-radius: 5px;
-  text-align: center;
+  padding-top: 20px;
 }
 .main-form__title {
   font-family: "Open Sans";
   font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 10px 10px 30px 10px;
+  margin: 0px 10px 30px 10px;
 }
 .main-form__title_colortext {
   color: #ec7979;
@@ -175,7 +208,7 @@ body {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
-  padding: 25px 91px;
+  padding: 25px;
   margin-top: 15px;
   background-color: #ec7979;
   border: 1px solid #ec7979;
@@ -196,11 +229,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .social img {
   width: 100%;
   margin: 0 10px;
 }
+
 .social-text__title {
   margin-bottom: 20px;
   font-family: "Open Sans";
@@ -310,16 +345,16 @@ body {
 .contact-form__input-line {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 50px auto;
+  max-width: 80%;
 }
 .input-line__input {
-  width: 40%;
-  margin-right: 10px;
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
 }
 .contact-form__input {
-  width: 100%;
-  padding: 0px 0px 30px 0px;
-  margin: 5px 0px 22px 0px;
+  flex: 1 1 33.333%;
   border: none;
   border-bottom: 1px solid #bdbdbd;
   font-family: "Open Sans";
@@ -327,8 +362,7 @@ body {
   color: #bdbdbd;
 }
 .contact-form__textarea {
-  width: 40%;
-  height: 203px;
+  flex: 1 1 50%;
   margin-left: 10px;
   font-family: "Open Sans";
   font-size: 14px;
@@ -342,12 +376,11 @@ body {
   justify-content: center;
 }
 .contact-form__sent-btn {
-  width: 370px;
   color: white;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
-  padding: 25px 91px;
+  padding: 25px;
   margin-top: 15px;
   background-color: #ec7979;
   border: 1px solid #ec7979;
@@ -366,6 +399,7 @@ body {
   margin: 15px auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .footer__license {
