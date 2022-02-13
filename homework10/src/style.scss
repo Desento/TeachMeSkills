@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("./fronts/raleway/Raleway-Regular.eot");
+    src: url("./fronts/raleway/Raleway-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fronts/raleway/Raleway-Regular.woff2") format("woff2"),
+      url("./fronts/raleway/Raleway-Regular.woff") format("woff"),
+      url("./fronts/raleway/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Open Sans";
+    src: url("./fronts/opensans/OpenSans-Regular.eot");
+    src: url("./fronts/opensans/OpenSans-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fronts/opensans/OpenSans-Regular.woff2") format("woff2"),
+      url("./fronts/opensans/OpenSans-Regular.woff") format("woff"),
+      url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+  }
+  body * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
