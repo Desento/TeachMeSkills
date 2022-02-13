@@ -1,22 +1,13 @@
 @font-face {
   font-family: "Raleway";
-  src: url("./fronts/raleway/Raleway-Regular.eot");
-  src: url("./fronts/raleway/Raleway-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fronts/raleway/Raleway-Regular.woff2") format("woff2"),
-    url("./fronts/raleway/Raleway-Regular.woff") format("woff"),
-    url("./fronts/raleway/Raleway-Regular.ttf") format("truetype");
+  src: url("Raleway-Regular.82dc142f.eot");
+  src: url("Raleway-Regular.82dc142f.eot#iefix") format("embedded-opentype"), url("Raleway-Regular.8d394105.woff2") format("woff2"), url("Raleway-Regular.b6a30ce9.woff") format("woff"), url("Raleway-Regular.4862502e.ttf") format("truetype");
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sans";
-  src: url("./fronts/opensans/OpenSans-Regular.eot");
-  src: url("./fronts/opensans/OpenSans-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("./fronts/opensans/OpenSans-Regular.woff2") format("woff2"),
-    url("./fronts/opensans/OpenSans-Regular.woff") format("woff"),
-    url("./fronts/opensans/OpenSans-Regular.ttf") format("truetype");
+  src: url("OpenSans-Regular.1056a677.eot");
+  src: url("OpenSans-Regular.1056a677.eot#iefix") format("embedded-opentype"), url("OpenSans-Regular.34610385.woff2") format("woff2"), url("OpenSans-Regular.77ad00a9.woff") format("woff"), url("OpenSans-Regular.ee2f8f23.ttf") format("truetype");
   font-style: normal;
 }
 body * {
@@ -40,11 +31,9 @@ body {
   position: relative;
   background-color: black;
 }
-
 .header__menu {
   display: flex;
   list-style: none;
-
   align-items: center;
 }
 .header__menu a {
@@ -57,7 +46,6 @@ body {
   color: white;
   margin: 0 25px;
 }
-
 .mobile-menu-button {
   display: none;
   cursor: pointer;
@@ -69,17 +57,16 @@ body {
   right: 20px;
   padding: 10px;
 }
-
 .menu-check {
   display: none;
 }
-
 @media (max-width: 768px) {
   .header {
     position: fixed;
     top: 0;
     z-index: 8;
   }
+
   .mobile-menu-button {
     display: flex;
   }
@@ -131,6 +118,7 @@ body {
     display: block;
     font-size: 20px;
   }
+
   #hashtag {
     display: block;
     font-size: 50px;
@@ -140,16 +128,20 @@ body {
   .main .container-block {
     flex-wrap: wrap;
   }
+
   .main-info {
     max-width: 75%;
     margin: 0 0 20px 0;
   }
+
   .main-form {
     max-width: 75%;
   }
+
   .social-text {
     flex: 1 1 66.666%;
   }
+
   .social-link {
     flex: 1 1 33.333%;
   }
