@@ -320,11 +320,13 @@ body {
       margin: 50px 0;
       .swiper-wrapper {
         .swiper-slide {
+          padding: 0 20px;
           .review-block {
             .review-block__text-container {
               padding: 20px;
               background: $lightgrey;
               border-radius: 10px;
+
               .text-container__text {
                 font-family: "Raleway";
                 font-size: 18px;
@@ -334,6 +336,7 @@ body {
                 position: relative;
                 &:after {
                   content: "";
+                  z-index: -1;
                   width: 0;
                   height: 0;
                   border-left: 35px solid transparent;
@@ -669,5 +672,8 @@ i {
         }
       }
     }
+  }
+  .review-block__text-container {
+    padding: 10px 30px;
   }
 }

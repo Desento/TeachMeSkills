@@ -1047,6 +1047,9 @@ body {
   height: 300px;
   margin: 50px 0;
 }
+.customers .container-block .swiper-container .swiper-wrapper .swiper-slide {
+  padding: 0 20px;
+}
 .customers .container-block .swiper-container .swiper-wrapper .swiper-slide .review-block .review-block__text-container {
   padding: 20px;
   background: #e2e2e2;
@@ -1062,6 +1065,7 @@ body {
 }
 .customers .container-block .swiper-container .swiper-wrapper .swiper-slide .review-block .review-block__text-container .text-container__text:after {
   content: "";
+  z-index: -1;
   width: 0;
   height: 0;
   border-left: 35px solid transparent;
@@ -1377,5 +1381,9 @@ i {
   }
   .tabs .container-block .tabs-info .tabs-info__pic {
     display: none;
+  }
+
+  .review-block__text-container {
+    padding: 10px 30px;
   }
 }
