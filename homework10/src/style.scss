@@ -21,12 +21,9 @@
 }
 
 @import "../node_modules/swiper/swiper-bundle.css";
-.swiper-container {
-  width: 600px;
-  height: 300px;
-}
 
 $pink: #ec7979;
+$lightgrey: #e2e2e2;
 $grey: #86878b;
 $rose: #f8efef;
 
@@ -80,7 +77,7 @@ body {
   position: relative;
   padding: 150px 0;
   z-index: 3;
-  &::after {
+  &:after {
     content: "";
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
@@ -91,7 +88,7 @@ body {
     top: 0;
     z-index: -1;
   }
-  &::before {
+  &:before {
     content: "";
     position: absolute;
     background-image: url(./img/image.jpg);
@@ -291,8 +288,92 @@ body {
 .customers {
   margin: 0 auto;
   width: 100%;
+  overflow: hidden;
   .container-block {
     display: block;
+    .customers__title {
+      font-family: "Raleway";
+      font-size: 36px;
+      line-height: 42px;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      &:after {
+        content: "";
+        display: block;
+        width: 170px;
+        border: 1px solid $pink;
+        margin: 25px auto;
+      }
+    }
+    .customers__subtitle {
+      font-family: "Raleway";
+      font-size: 18px;
+      line-height: 21px;
+      align-items: center;
+      text-align: center;
+      color: $grey;
+    }
+    .swiper-container {
+      max-width: 100%;
+      height: 300px;
+      margin: 50px 0;
+      .swiper-wrapper {
+        .swiper-slide {
+          .review-block {
+            .review-block__text-container {
+              padding: 20px;
+              background: $lightgrey;
+              border-radius: 10px;
+              .text-container__text {
+                font-family: "Raleway";
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: $grey;
+                position: relative;
+                &:after {
+                  content: "";
+                  width: 0;
+                  height: 0;
+                  border-left: 35px solid transparent;
+                  border-right: 35px solid transparent;
+                  border-top: 70px solid $lightgrey;
+                  position: absolute;
+                  left: 15%;
+                }
+              }
+            }
+            .review-block__user {
+              margin-top: 50px;
+              display: flex;
+              justify-content: left;
+              align-items: center;
+              .user__logo {
+                margin-right: 15px;
+              }
+              .user__text {
+                .text__name {
+                  font-family: "Open Sans";
+                  font-weight: bold;
+                  font-size: 24px;
+                  line-height: 33px;
+                  text-align: center;
+                  text-transform: capitalize;
+                  margin-bottom: 10px;
+                }
+                .text__position {
+                  font-family: "Raleway";
+                  font-size: 18px;
+                  line-height: 21px;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
