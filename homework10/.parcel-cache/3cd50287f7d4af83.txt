@@ -27,7 +27,7 @@
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\source-map\lib\binary-search.js132892617010292919 0
 64D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\.bin\svgo132892617073368827 0
 77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\modules\virtual132894838904112268 1
-46D:\TeachMeSkills\TeachMeSkills\homework10\dist132894932058322427 1
+46D:\TeachMeSkills\TeachMeSkills\homework10\dist132895012828942021 1
 54D:\TeachMeSkills\TeachMeSkills\homework10\node_modules132894838907152203 1
 72D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\htmlnano\index.js132892617014952624 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\run-in.js132892617064909388 0
@@ -62,13 +62,13 @@
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\util-deprecate\browser.js132892616998633662 0
 73D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\domhandler\LICENSE132892616991414131 0
 78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\htmlnano\docs\README.md132892617039221042 0
-56D:\TeachMeSkills\TeachMeSkills\homework10\src\index.html132894930322404580 0
+56D:\TeachMeSkills\TeachMeSkills\homework10\src\index.html132894990445678225 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\PN.js132892617063799460 0
-53D:\TeachMeSkills\TeachMeSkills\homework10\src\main.js132894909202749150 0
+53D:\TeachMeSkills\TeachMeSkills\homework10\src\main.js132894995419176897 0
 102D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\chacha20-poly1305.js132892617041680887 0
 59D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\dom7132894838896472759 1
 83D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-discard-comments\src132892617001023518 1
-56D:\TeachMeSkills\TeachMeSkills\homework10\src\style.scss132894932045143270 0
+56D:\TeachMeSkills\TeachMeSkills\homework10\src\style.scss132895012603726592 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\types\swiper-events.d.ts132894838904902177 0
 72D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\chokidar\index.js132892617268496229 0
 89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\core\update\updateSlides.js132894838901452411 0
@@ -320,7 +320,7 @@
 84D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\source-map-js\source-map.d.ts132892617018472401 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-arm64132892617040520964 1
 70D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\xxhash-wasm\umd132892617009123000 1
-77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020132894838903122313 1
+77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020132894838903402278 1
 88D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\sni.js132892617066329299 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\dist\unpacker\agents.js132892617015722583 0
 96D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\modules\controller\controller.scss132894838903742270 0
@@ -347,7 +347,7 @@
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\type-fest\source\conditional-except.d.ts132892617011662835 0
 98D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\text-overflow.js132892617067979180 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\type-fest\source\conditional-pick.d.ts132892617013352720 0
-77D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.77ad00a9.woff132894932057152494 0
+77D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.77ad00a9.woff132895012589297535 0
 68D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\color-convert132892617006763144 1
 90D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-postcss\LICENSE132892616991684128 0
 72D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\terser\bin\terser132892616996923785 0
@@ -488,7 +488,7 @@
 102D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\lmdb\prebuilds\linux-arm64\node.abi93.musl.node132892617064299432 0
 106D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\terser\node_modules\source-map\lib\binary-search.js132892617014872621 0
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\core\update\index.js132894838898522609 0
-67D:\TeachMeSkills\TeachMeSkills\homework10\dist\freedom.b71caba9.png132894932058062433 0
+67D:\TeachMeSkills\TeachMeSkills\homework10\dist\freedom.b71caba9.png132895012589887474 0
 66D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\glob-parent132892617268436411 1
 105D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\utils\test\replaceBundleReferences.test.js132892617037481164 0
 71D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\minimist\LICENSE132892616991444118 0
@@ -596,7 +596,7 @@
 61D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\nanoid132892617024482026 1
 111D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\same-site-cookie-attribute.js132892617065019384 0
 97D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-merge-longhand\src\lib\parseWsc.js132892617025131963 0
-81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular\src132894838904412230 1
+81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular\src132894838905192185 1
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-tree\lib\utils\clone.js132892617018602398 0
 87D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\dist\resolveSeq-d03cb037.js132892617028441792 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\optimizer-image\package.json132892617002253446 0
@@ -1005,7 +1005,7 @@
 99D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-selector-parser\dist\util\getProp.js132892617012262784 0
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\browser\dist\PlainValue-b8036b75.js132892617025981897 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\BT.js132892617040160995 0
-64D:\TeachMeSkills\TeachMeSkills\homework10\dist\logo.b983eaaf.svg132894932056942503 0
+64D:\TeachMeSkills\TeachMeSkills\homework10\dist\logo.b983eaaf.svg132895011373236081 0
 87D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\fs\src\NodeFS.browser.js132892617011622829 0
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\browser\dist\resolveSeq-492ab440.js132892617027631805 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\browser\dist\Schema-e94716c8.js132892617029921642 0
@@ -1018,7 +1018,7 @@
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\watcher\src\windows\win_utils.hh132892617028261758 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\json5\lib\register.js132892617010012935 0
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\browser\dist\util.js132892617033821416 0
-78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\fesm2015132894838902232393 1
+78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\fesm2015132894838903252303 1
 103D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\entities\lib\generated\decode-data-html.d.ts.map132892617017062485 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\yaml\browser\dist\warnings-df54cb69.js132892617035151307 0
 111D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src\utils\params-list.mjs132894838903162324 0
@@ -1137,7 +1137,7 @@
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\utility-types\dist\index.js.map132892617011892802 0
 98D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\fixtures\parcel\yarn.lock132892617052290212 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\utility-types\dist\mapped-types.js.map132892617012742758 0
-95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src\utils132894838903122313 1
+95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src\utils132894838903602295 1
 83D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\shared\get-support.js132894838898122644 0
 92D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\utility-types\dist\utility-types.d.ts132892617020592283 0
 98D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\css-scrollbar.js132892617052620222 0
@@ -1193,7 +1193,7 @@
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\type-fest\ts41\pascal-case.d.ts132892617026791866 0
 87D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins\sortDefsChildren.js132892617038341114 0
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-what\lib\stringify.js132892616999933587 0
-66D:\TeachMeSkills\TeachMeSkills\homework10\dist\rosser.a9f96365.svg132894932056962546 0
+66D:\TeachMeSkills\TeachMeSkills\homework10\dist\rosser.a9f96365.svg132895011373086123 0
 114D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\darwin-arm64\electron.abi98.node132892617010382917 0
 94D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\type-fest\source\async-return-type.d.ts132892617000793558 0
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\graph\src\types.js132892617018532383 0
@@ -1349,7 +1349,7 @@
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\AM.js132892617025741921 0
 72D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\terser\lib\cli.js132892617022492128 0
 83D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\entities\lib\decode.d.ts.map132892617018812361 0
-80D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-v4compatibility.3c55b4f4.woff2132894932057122521 0
+80D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-v4compatibility.3c55b4f4.woff2132895012589037528 0
 97D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-selector-parser\dist\util\unesc.js132892617028441792 0
 104D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\once-event-listener.js132892617063159503 0
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\src\utils.js132892617048760442 0
@@ -1492,7 +1492,7 @@
 89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\json-source-map\spec\.eslintrc.yml132892617007233123 0
 78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\types\index.d.ts132894838904502230 0
 85D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\nanoid\non-secure\package.json132892617020202273 0
-65D:\TeachMeSkills\TeachMeSkills\homework10\dist\image.91f37d63.jpg132894932058272413 0
+65D:\TeachMeSkills\TeachMeSkills\homework10\dist\image.91f37d63.jpg132895012592427317 0
 67D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins132892617038301111 1
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\PackagerRunner.test.js132892617041810880 0
 85D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\types\swiper-class.d.ts132894838904842204 0
@@ -1532,7 +1532,7 @@
 106D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js132892616997783737 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\nan\doc\converters.md132892617028961710 0
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss\lib\processor.d.ts132892617033431430 0
-65D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.ebb1f433.css132894932056962546 0
+65D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.ebb1f433.css132895011370456272 0
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-css\lib132892616993913996 1
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\types\modules\mousewheel.d.ts132894838904592407 0
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss\lib\node.js132892617015912572 0
@@ -1932,7 +1932,7 @@
 90D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-normalize-unicode\README.md132892616999383689 0
 67D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\lmdb\read.js132892617046010600 0
 77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular132894838904412230 1
-78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\fesm2020132894838902312367 1
+78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\fesm2020132894838903302282 1
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss\lib\declaration.js132892617006063189 0
 89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\swiper-angular.d.ts132894838904802204 0
 97D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-select\lib\pseudo-selectors\pseudos.js132892617012612782 0
@@ -1955,7 +1955,7 @@
 96D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\swiper_angular.mjs132894838903242309 0
 90D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\cssnano-preset-default\package.json132892616997593749 0
 133D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\a132892617031421553 1
-89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src132894838903122313 1
+89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src132894838903572264 1
 98D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\stylehacks\src\plugins\leadingUnderscore.js132892617015372585 0
 116D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\esm2020\angular\src\swiper-slide.directive.mjs132894838903442301 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins\cleanupNumericValues.js132892617015782569 0
@@ -1984,7 +1984,7 @@
 96D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\ol-reversed.js132892617063119512 0
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\lmdb\src\ordered-binary.cpp132892617041240940 0
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\workers\index.d.ts132892617033911392 0
-87D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular\src\utils132894838904412230 1
+87D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular\src\utils132894838905242187 1
 104D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\swiper\angular\angular\src\utils\params-list.d.ts132894838904672213 0
 64D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\dist132892617038931073 1
 67D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\LICENSE132892616991594113 0
@@ -2018,7 +2018,7 @@
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins\removeDesc.js132892617033091487 0
 79D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-json132892616999743602 1
 92D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins\removeEmptyContainers.js132892617034681349 0
-78D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.34610385.woff2132894932057112497 0
+78D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.34610385.woff2132895012589027532 0
 88D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\svgo\plugins\removeHiddenElems.js132892617035091318 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-postcss\src132892617011192861 1
 112D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi83.musl.node132892617035321311 0
@@ -2606,7 +2606,7 @@
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\utils\src\glob.js132892617022242143 0
 85D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\htmlnano\lib\modules\custom.js132892617010142931 0
 89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-discard-empty\src\index.js132892616994333943 0
-76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.1056a677.eot132894932057192491 0
+76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.1056a677.eot132895012589347519 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-discard-duplicates\LICENSE-MIT132892616991484123 0
 91D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\postcss-discard-duplicates\README.md132892616999423615 0
 98D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\link-icon-png.js132892617060739714 0
@@ -2894,7 +2894,7 @@
 84D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\json-source-map\spec\index.js132892617010152916 0
 89D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\lmdb\dependencies\lz4\lib\xxhash.h132892617044120737 0
 84D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-declaration-sorter\orders132892617014312660 1
-72D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-solid-900.eb10ea20.ttf132894932058072440 0
+72D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-solid-900.eb10ea20.ttf132895012589877494 0
 77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\is-binary-path\license132892617268336236 0
 72D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\nan\doc\script.md132892617032511478 0
 78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\nan\doc\string_bytes.md132892617032761455 0
@@ -2927,7 +2927,7 @@
 112D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi93.musl.node132892617039870998 0
 107D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi93.node132892617040810938 0
 113D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-arm64\electron.abi98.node132892617014322653 0
-65D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.d09cd8c0.css132894932056952525 0
+65D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.d09cd8c0.css132895012827012166 0
 110D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\linux-arm64\node.abi102.node132892617027931766 0
 109D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\msgpackr-extract\prebuilds\darwin-x64\node.abi102.node132892617027301812 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\features\template.js132892617067849218 0
@@ -3644,7 +3644,7 @@
 85D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@babel\code-frame\lib\index.js132892616996693792 0
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-declaration-sorter\orders\smacss.cjs132892617001503488 0
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\css-declaration-sorter\orders\smacss.mjs132892617014482643 0
-57D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.html132894932056942503 0
+57D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.html132895012828032097 0
 71D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\cosmiconfig\dist132892617031521543 1
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\cosmiconfig\LICENSE132892616991454132 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\cosmiconfig\README.md132892617028561732 0
@@ -3734,7 +3734,7 @@
 79D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\watcher\index.js132892617028941717 0
 97D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\chrome-trace-event\dist\trace-event.js.map132892616996853809 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\SN.js132892617066299309 0
-78D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-v4compatibility.73f6c55d.ttf132894932057132494 0
+78D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-v4compatibility.73f6c55d.ttf132895012589047519 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\chokidar\package.json132892617268656219 0
 73D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\chokidar\README.md132892617268706220 0
 69D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\chokidar\types132892617268766210 1
@@ -3919,7 +3919,7 @@
 76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.e9402fc7.ttf132892621394764732 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\VE.js132892617068969122 0
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\utils\src\schema.js132892617037681156 0
-75D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-brands-400.3983ce71.woff2132894932057252492 0
+75D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-brands-400.3983ce71.woff2132895012589287505 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\VI.js132892617069029126 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\VU.js132892617069179113 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\caniuse-lite\data\regions\WF.js132892617069729095 0
@@ -4374,7 +4374,7 @@
 80D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\optimizer-cssnano132892616999823607 1
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\events\test132892617014552658 1
 81D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\optimizer-htmlnano132892617006123191 1
-73D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-brands-400.15b7e2f5.ttf132894932057682463 0
+73D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-brands-400.15b7e2f5.ttf132895012589547515 0
 78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\optimizer-image132892617044490766 1
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\packager-js132892617021482207 1
 75D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\packager-svg132892616999813602 1
@@ -4390,7 +4390,7 @@
 77D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-js132892617070359039 1
 82D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-postcss132892617012342787 1
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\transformer-react-refresh-wrap132892617010792884 1
-76D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.b6a30ce9.woff132894932057152494 0
+76D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.b6a30ce9.woff132895012589197535 0
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\workers\lib132892617032621475 1
 78D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\workers\LICENSE132892616991644126 0
 74D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\workers\src132892617032981439 1
@@ -4884,7 +4884,7 @@
 100D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\ParcelConfigRequest.test.js132892617043540774 0
 93D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\PublicBundle.test.js132892617044420707 0
 97D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\PublicDependency.test.js132892617044500699 0
-75D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.82dc142f.eot132894932057522457 0
+75D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.82dc142f.eot132895012589477503 0
 105D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js132892617045250661 0
 95D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\RequestTracker.test.js132892617046040615 0
 86D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\@parcel\core\test\test-utils.js132892617048100467 0
@@ -5090,20 +5090,20 @@
 68D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\.bin\sass.cmd132892617270176110 0
 70D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\.bin\semver.ps1132892617073368827 0
 66D:\TeachMeSkills\TeachMeSkills\homework10\node_modules\.bin\terser132892617073378849 0
-66D:\TeachMeSkills\TeachMeSkills\homework10\dist\desing.d365489a.jpg132894932058272413 0
-67D:\TeachMeSkills\TeachMeSkills\homework10\dist\dorwart.755419ed.svg132894932056962546 0
-74D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-regular-400.1933687e.ttf132894932057112497 0
-76D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-regular-400.1b652ed9.woff2132894932057112497 0
-74D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-solid-900.69652791.woff2132894932057302503 0
+66D:\TeachMeSkills\TeachMeSkills\homework10\dist\desing.d365489a.jpg132895012592197331 0
+67D:\TeachMeSkills\TeachMeSkills\homework10\dist\dorwart.755419ed.svg132895011373086123 0
+74D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-regular-400.1933687e.ttf132895012589047519 0
+76D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-regular-400.1b652ed9.woff2132895012589057534 0
+74D:\TeachMeSkills\TeachMeSkills\homework10\dist\fa-solid-900.69652791.woff2132895012589297535 0
 69D:\TeachMeSkills\TeachMeSkills\homework10\dist\hamburger.56a714f7.svg132892621395354685 0
-69D:\TeachMeSkills\TeachMeSkills\homework10\dist\hamburger.cfb4c829.svg132894932056942503 0
-64D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.38057ced.js132894932056972534 0
+69D:\TeachMeSkills\TeachMeSkills\homework10\dist\hamburger.cfb4c829.svg132895011373236081 0
+64D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.38057ced.js132895012827022167 0
 65D:\TeachMeSkills\TeachMeSkills\homework10\dist\index.b2d9cf43.css132892621485918824 0
-66D:\TeachMeSkills\TeachMeSkills\homework10\dist\madsen.9c13dd57.svg132894932056962546 0
+66D:\TeachMeSkills\TeachMeSkills\homework10\dist\madsen.9c13dd57.svg132895011373276107 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.16660bc4.eot132892621394744729 0
-76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.ee2f8f23.ttf132894932057182500 0
+76D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.ee2f8f23.ttf132895012589277515 0
 77D:\TeachMeSkills\TeachMeSkills\homework10\dist\OpenSans-Regular.f53a0414.woff132892621394744729 0
-75D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.4862502e.ttf132894932057522457 0
-77D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.8d394105.woff2132894932057112497 0
+75D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.4862502e.ttf132895012589487526 0
+77D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.8d394105.woff2132895012589017570 0
 76D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.f20d54f4.woff132892621394654746 0
 75D:\TeachMeSkills\TeachMeSkills\homework10\dist\Raleway-Regular.fab21212.eot132892621394764732 0
