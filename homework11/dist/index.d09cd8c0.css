@@ -773,6 +773,29 @@ body {
   justify-content: space-between;
   width: 100%;
 }
+.title {
+  font-family: "Raleway";
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title:after {
+  content: "";
+  display: block;
+  width: 170px;
+  border: 1px solid #ec7979;
+  margin: 25px auto;
+}
+.subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #86878b;
+}
 .header {
   width: 100%;
   display: flex;
@@ -794,11 +817,6 @@ body {
   text-align: center;
   color: white;
   margin: 0 25px;
-}
-.desing .container-block,
-.contact .container-block,
-.footer .container-block {
-  display: block;
 }
 .main {
   margin: 0 auto;
@@ -943,7 +961,7 @@ body {
   flex-wrap: wrap;
 }
 .tabs {
-  margin: 0 auto;
+  margin: 50px auto;
   width: 100%;
 }
 .tabs .container-block {
@@ -1011,37 +1029,43 @@ body {
 .tabs .container-block .tabs-info .tabs-info__pic {
   flex: 1 1 30%;
 }
+.about {
+  margin: 0 auto;
+}
+.about .container-block {
+  margin: 50px auto;
+  display: block;
+}
+.about .container-block .about__container-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template: auto auto auto/auto auto auto;
+  grid-gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+.about .container-block .about__container-grid .container-grid__slogan {
+  font-family: "Open Sans";
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.about .container-block .about__container-grid .container-grid__disc {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+}
 .customers {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
 .customers .container-block {
+  margin: 50px auto;
   display: block;
   overflow: hidden;
-}
-.customers .container-block .customers__title {
-  font-family: "Raleway";
-  font-size: 36px;
-  line-height: 42px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-}
-.customers .container-block .customers__title:after {
-  content: "";
-  display: block;
-  width: 170px;
-  border: 1px solid #ec7979;
-  margin: 25px auto;
-}
-.customers .container-block .customers__subtitle {
-  font-family: "Raleway";
-  font-size: 18px;
-  line-height: 21px;
-  align-items: center;
-  text-align: center;
-  color: #86878b;
 }
 .customers .container-block .swiper-container {
   max-width: 100%;

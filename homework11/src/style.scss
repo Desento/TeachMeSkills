@@ -41,7 +41,29 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-
+.title {
+  font-family: "Raleway";
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  &:after {
+    content: "";
+    display: block;
+    width: 170px;
+    border: 1px solid $pink;
+    margin: 25px auto;
+  }
+}
+.subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: $grey;
+}
 .header {
   width: 100%;
   display: flex;
@@ -64,13 +86,6 @@ body {
     }
   }
 }
-
-.desing .container-block,
-.contact .container-block,
-.footer .container-block {
-  display: block;
-}
-
 .main {
   margin: 0 auto;
   width: 100%;
@@ -183,7 +198,6 @@ body {
     }
   }
 }
-
 .social {
   margin: 0 auto;
   width: 100%;
@@ -214,9 +228,8 @@ body {
     flex-wrap: wrap;
   }
 }
-
 .tabs {
-  margin: 0 auto;
+  margin: 50px auto;
   width: 100%;
   .container-block {
     display: block;
@@ -285,36 +298,43 @@ body {
     }
   }
 }
+.about {
+  margin: 0 auto;
+  .container-block {
+    margin: 50px auto;
+    display: block;
+    .about__container-grid {
+      margin-top: 50px;
+      display: grid;
+      grid-template: auto auto auto/auto auto auto;
+      grid-gap: 30px;
+      align-items: center;
+      justify-items: center;
+      .container-grid__slogan {
+        font-family: "Open Sans";
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+      .container-grid__disc {
+        text-align: center;
+        font-family: "Raleway";
+        font-size: 18px;
+        line-height: 21px;
+      }
+    }
+  }
+}
+
 .customers {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
   .container-block {
+    margin: 50px auto;
     display: block;
     overflow: hidden;
-    .customers__title {
-      font-family: "Raleway";
-      font-size: 36px;
-      line-height: 42px;
-      align-items: center;
-      text-align: center;
-      text-transform: uppercase;
-      &:after {
-        content: "";
-        display: block;
-        width: 170px;
-        border: 1px solid $pink;
-        margin: 25px auto;
-      }
-    }
-    .customers__subtitle {
-      font-family: "Raleway";
-      font-size: 18px;
-      line-height: 21px;
-      align-items: center;
-      text-align: center;
-      color: $grey;
-    }
     .swiper-container {
       max-width: 100%;
       height: 300px;
