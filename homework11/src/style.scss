@@ -697,4 +697,25 @@ i {
   .review-block__text-container {
     padding: 10px 30px;
   }
+  .about__container-grid {
+    grid-template-rows: auto auto auto auto auto auto;
+    .container-grid__icon:nth-child(2) {
+      order: 4;
+    }
+    .container-grid__icon:nth-child(3) {
+      order: 7;
+    }
+    .container-grid__slogan:nth-child(2) {
+      order: 5;
+    }
+    .container-grid__slogan:nth-child(3) {
+      order: 8;
+    }
+    .container-grid__disc:nth-child(2) {
+      order: 6;
+    }
+    .container-grid__disc:nth-child(3) {
+      order: 9;
+    }
+  }
 }

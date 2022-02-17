@@ -1411,4 +1411,26 @@ i {
   .review-block__text-container {
     padding: 10px 30px;
   }
+
+  .about__container-grid {
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+  .about__container-grid .container-grid__icon:nth-child(2) {
+    order: 4;
+  }
+  .about__container-grid .container-grid__icon:nth-child(3) {
+    order: 7;
+  }
+  .about__container-grid .container-grid__slogan:nth-child(2) {
+    order: 5;
+  }
+  .about__container-grid .container-grid__slogan:nth-child(3) {
+    order: 8;
+  }
+  .about__container-grid .container-grid__disc:nth-child(2) {
+    order: 6;
+  }
+  .about__container-grid .container-grid__disc:nth-child(3) {
+    order: 9;
+  }
 }
