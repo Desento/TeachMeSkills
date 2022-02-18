@@ -306,22 +306,27 @@ body {
     .about__container-grid {
       margin-top: 50px;
       display: grid;
-      grid-template: auto auto auto/auto auto auto;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 30px;
       align-items: center;
       justify-items: center;
-      .container-grid__slogan {
-        font-family: "Open Sans";
-        font-size: 24px;
-        line-height: 33px;
-        font-weight: bold;
-        text-transform: capitalize;
-      }
-      .container-grid__disc {
-        text-align: center;
-        font-family: "Raleway";
-        font-size: 18px;
-        line-height: 21px;
+      .container-grid__item {
+        .item__icon {
+          align-items: center;
+        }
+        .item__slogan {
+          font-family: "Open Sans";
+          font-size: 24px;
+          line-height: 33px;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+        .item__disc {
+          text-align: center;
+          font-family: "Raleway";
+          font-size: 18px;
+          line-height: 21px;
+        }
       }
     }
   }
