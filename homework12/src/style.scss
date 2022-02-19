@@ -22,14 +22,9 @@
 
 @import "../node_modules/swiper/swiper-bundle.css";
 
-$black: black;
-$ligthblack: #333333;
-$white: white;
 $pink: #ec7979;
 $lightgrey: #e2e2e2;
-$mediumgrey: #f5f5f5;
-$darkgrey: #86878b;
-$grey: #808080;
+$grey: #86878b;
 $rose: #f8efef;
 
 body * {
@@ -67,18 +62,7 @@ body {
   line-height: 21px;
   align-items: center;
   text-align: center;
-  color: $darkgrey;
-}
-.title-item {
-  font-family: "Open Sans";
-  font-size: 24px;
-  line-height: 33px;
-}
-
-.subtitle-item {
-  font-family: "Raleway";
-  font-size: 18px;
-  line-height: 21px;
+  color: $grey;
 }
 .header {
   width: 100%;
@@ -97,7 +81,7 @@ body {
       line-height: 19px;
       align-items: center;
       text-align: center;
-      color: $white;
+      color: white;
       margin: 0 25px;
     }
   }
@@ -140,12 +124,12 @@ body {
         font-family: "Raleway";
         font-weight: 500;
         font-size: 48px;
-        color: $white;
+        color: white;
         &::after {
           content: "";
           display: block;
           width: 170px;
-          border: 1px solid $grey;
+          border: 1px solid grey;
           margin: 25px 0;
         }
       }
@@ -154,17 +138,19 @@ body {
         font-family: "Raleway";
         font-size: 18px;
         line-height: 21px;
-        color: $white;
+        color: white;
       }
       .main-info__download-btn {
-        color: $white;
+        max-width: 50%;
+        min-width: 30%;
+        color: white;
         font-family: "Open Sans";
         font-weight: 600;
         font-size: 18px;
-        padding: 15px 70px;
+        padding: 15px;
         margin-top: 39px;
         background-color: transparent;
-        border: 1px solid $white;
+        border: 1px solid white;
         cursor: pointer;
       }
     }
@@ -172,41 +158,42 @@ body {
       flex: 1 1 33.333%;
       text-align: center;
       .container {
-        background: $white;
-        border-radius: 5px 5px 0 0;
-        padding: 20px;
+        background: white;
+        border-radius: 5px;
+        padding-top: 20px;
         .main-form__title {
           font-family: "Open Sans";
           font-size: 28px;
           font-weight: bold;
           text-transform: uppercase;
-          margin-bottom: 30px;
+          margin: 0px 10px 30px 10px;
           .main-form__title_colortext {
-            color: $pink;
+            color: #ec7979;
           }
         }
         .main-form__input {
-          width: 100%;
+          width: 75%;
           padding: 15px;
           margin: 5px 0px 22px 0px;
           border: none;
-          border-bottom: 1px solid rgb(189, 189, 189);
+          border-bottom: 1px solid #bdbdbd;
           font-family: "Open Sans";
           font-size: 14px;
-          color: rgb(189, 189, 189);
+          color: #bdbdbd;
         }
-      }
-      .main-form__register-btn {
-        width: 100%;
-        color: white;
-        font-family: "Open Sans";
-        font-weight: 600;
-        font-size: 18px;
-        padding: 25px;
-        background-color: #ec7979;
-        border: 1px solid #ec7979;
-        border-radius: 0px 0px 5px 5px;
-        cursor: pointer;
+        .main-form__register-btn {
+          width: 100%;
+          color: white;
+          font-family: "Open Sans";
+          font-weight: 600;
+          font-size: 18px;
+          padding: 25px;
+          margin-top: 15px;
+          background-color: #ec7979;
+          border: 1px solid #ec7979;
+          border-radius: 0px 0px 5px 5px;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -221,10 +208,14 @@ body {
     flex: 1 1 33.333%;
     .social-text__title {
       margin-bottom: 20px;
+      font-family: "Open Sans";
+      font-size: 24px;
       font-weight: 700;
     }
     .social-text__subtitle {
       color: #86878b;
+      font-family: "Raleway";
+      font-size: 18px;
       font-weight: 400;
       margin-bottom: 10px;
     }
@@ -321,72 +312,20 @@ body {
       justify-items: center;
       .container-grid__item {
         .item__icon {
-          text-align: center;
-          margin: 5px auto;
+          align-items: center;
         }
         .item__slogan {
-          margin: 5px auto;
-          text-align: center;
+          font-family: "Open Sans";
+          font-size: 24px;
+          line-height: 33px;
           font-weight: bold;
           text-transform: capitalize;
         }
         .item__disc {
-          margin: 5px auto;
           text-align: center;
-        }
-      }
-    }
-  }
-}
-.price {
-  background: $mediumgrey;
-  .container-block {
-    display: block;
-    padding: 50px 0;
-    .price__container-grid {
-      margin-top: 50px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      grid-gap: 30px;
-      align-items: center;
-      justify-items: center;
-      .container-grid__item {
-        width: 100%;
-        transition: 0.5s;
-        &:hover {
-          transform: translateY(-20px);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        .item__tariff {
-          color: $white;
-          background: $ligthblack;
-          border: 1px solid $mediumgrey;
-          text-align: center;
-          padding: 10px;
-        }
-        .item__price {
-          color: $white;
           font-family: "Raleway";
-          font-size: 36px;
-          line-height: 42px;
-          text-align: center;
-          background: $ligthblack;
-          border: 1px solid $mediumgrey;
-          padding: 20px;
-        }
-        .item__period {
-          color: $darkgrey;
-          text-align: center;
-          background: $ligthblack;
-          border: 1px solid $mediumgrey;
-          padding: 10px;
-        }
-        .item__option {
-          text-align: center;
-          color: $darkgrey;
-          background: $white;
-          border: 1px solid $mediumgrey;
-          padding: 10px;
+          font-size: 18px;
+          line-height: 21px;
         }
       }
     }
@@ -403,6 +342,7 @@ body {
     overflow: hidden;
     .swiper-container {
       max-width: 100%;
+      height: 300px;
       margin: 50px 0;
       .swiper-wrapper {
         .swiper-slide {
@@ -414,6 +354,9 @@ body {
               border-radius: 10px;
 
               .text-container__text {
+                font-family: "Raleway";
+                font-size: 18px;
+                line-height: 21px;
                 text-align: center;
                 color: $grey;
                 position: relative;
@@ -440,10 +383,19 @@ body {
               }
               .user__text {
                 .text__name {
+                  font-family: "Open Sans";
                   font-weight: bold;
+                  font-size: 24px;
+                  line-height: 33px;
                   text-align: center;
                   text-transform: capitalize;
                   margin-bottom: 10px;
+                }
+                .text__position {
+                  font-family: "Raleway";
+                  font-size: 18px;
+                  line-height: 21px;
+                  text-align: center;
                 }
               }
             }
@@ -720,44 +672,6 @@ i {
   }
 }
 @media (max-width: 576px) {
-  .main {
-    .container-block {
-      display: block;
-      text-align: center;
-      .main-info {
-        max-width: 100%;
-        padding: 0;
-        text-align: center;
-        img {
-          display: none;
-        }
-        .main-info__title {
-          width: 100%;
-
-          &::after {
-            width: 100%;
-          }
-        }
-        .main-info__subtitle {
-          width: 100%;
-        }
-        .main-info__download-btn {
-          width: 100%;
-        }
-      }
-      .main-form {
-        max-width: 100%;
-      }
-    }
-  }
-
-  .social {
-    .container-block {
-      display: block;
-      text-align: center;
-    }
-  }
-
   .tabs {
     .container-block {
       .tabs-links {
@@ -785,15 +699,33 @@ i {
       }
     }
   }
+  .review-block__text-container {
+    padding: 10px 30px;
+  }
   .about {
     .container-block {
       .about__container-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto;
+        & :nth-child(2) {
+          order: 2;
+        }
+        & :nth-child(4) {
+          order: 2;
+        }
+        & :nth-child(7) {
+          order: 2;
+        }
+        & :nth-child(3) {
+          order: 3;
+        }
+        & :nth-child(5) {
+          order: 3;
+        }
+        & :nth-child(8) {
+          order: 3;
+        }
       }
     }
-  }
-
-  .review-block__text-container {
-    padding: 10px 30px;
   }
 }
