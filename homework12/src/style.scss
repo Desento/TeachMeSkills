@@ -320,9 +320,11 @@ body {
       align-items: center;
       justify-items: center;
       .container-grid__item {
-        .item__icon {
-          text-align: center;
-          margin: 5px auto;
+        width: 100%;
+        transition: 0.5s;
+        &:hover {
+          transform: translateY(-20px);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         .item__slogan {
           margin: 5px auto;
