@@ -807,6 +807,17 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+.secondary-btn {
+  padding: 25px 200px;
+  margin: 50px 0;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.secondary-btn :hover {
+  background-color: #808080;
+}
 .mobile-menu-button {
   display: none;
   cursor: pointer;
@@ -978,6 +989,10 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.social .container-block .social-link i {
+  margin: 25px;
+  color: #cccccc;
+}
 .tabs {
   margin: 50px auto;
   width: 100%;
@@ -1064,11 +1079,9 @@ body {
 }
 .about .container-block .about__container-grid .container-grid__item {
   width: 100%;
-  transition: 0.5s;
 }
-.about .container-block .about__container-grid .container-grid__item:hover {
-  transform: translateY(-20px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.about .container-block .about__container-grid .container-grid__item .item__icon {
+  text-align: center;
 }
 .about .container-block .about__container-grid .container-grid__item .item__slogan {
   margin: 5px auto;
@@ -1230,17 +1243,13 @@ body {
 .desing .container-block .desing__subtitle {
   color: white;
 }
-.desing .container-block .desing__download-btn {
+.desing .container-block .desing__download {
+  text-align: center;
+}
+.desing .container-block .desing__download .desing__download-btn {
   color: white;
-  font-family: "Open Sans";
-  font-weight: 600;
-  line-height: 25px;
-  font-size: 24px;
-  padding: 25px 100px;
-  margin: 50px 0;
   background-color: transparent;
   border: 1px solid white;
-  cursor: pointer;
 }
 .contact .container-block {
   display: block;
@@ -1268,6 +1277,7 @@ body {
   color: #bdbdbd;
 }
 .contact .container-block .contact-form__input-line .contact-form__textarea {
+  resize: none;
   flex: 1 1 50%;
   margin-left: 10px;
   font-family: "Open Sans";
@@ -1282,15 +1292,8 @@ body {
 }
 .contact .container-block .contact-form__sent .contact-form__sent-btn {
   color: white;
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 18px;
-  padding: 25px;
-  margin-top: 15px;
   background-color: #ec7979;
   border: 1px solid #ec7979;
-  border-radius: 5px;
-  cursor: pointer;
 }
 .footer {
   width: 100%;
