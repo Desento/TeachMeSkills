@@ -786,7 +786,8 @@ body {
   display: block;
   width: 170px;
   border: 1px solid #ec7979;
-  margin: 25px auto;
+  background: #ec7979;
+  margin: 55px auto;
 }
 .subtitle {
   font-family: "Raleway";
@@ -1081,7 +1082,12 @@ body {
   justify-items: center;
 }
 .price .container-block .price__container-grid .container-grid__item {
+  transition: 1s;
   width: 100%;
+}
+.price .container-block .price__container-grid .container-grid__item:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .price .container-block .price__container-grid .container-grid__item .item__tariff {
   color: white;
@@ -1163,7 +1169,6 @@ body {
 }
 .customers .container-block .swiper-container .swiper-wrapper .swiper-slide .review-block .review-block__user .user__text .text__name {
   font-weight: bold;
-  text-align: center;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
@@ -1198,7 +1203,20 @@ body {
   top: 0;
   z-index: -1;
 }
-.desing__download-btn {
+.desing .container-block {
+  display: block;
+}
+.desing .container-block .desing__title {
+  color: white;
+}
+.desing .container-block .desing__title::after {
+  border: 1px solid white;
+  background: white;
+}
+.desing .container-block .desing__subtitle {
+  color: white;
+}
+.desing .container-block .desing__download-btn {
   color: white;
   font-family: "Open Sans";
   font-weight: 600;

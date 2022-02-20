@@ -58,7 +58,8 @@ body {
     display: block;
     width: 170px;
     border: 1px solid $pink;
-    margin: 25px auto;
+    background: $pink;
+    margin: 55px auto;
   }
 }
 .subtitle {
@@ -353,7 +354,12 @@ body {
       align-items: center;
       justify-items: center;
       .container-grid__item {
+        transition: 1s;
         width: 100%;
+        &:hover {
+          transform: translateY(-20px);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
         .item__tariff {
           color: $white;
           background: $ligthblack;
@@ -437,7 +443,6 @@ body {
               .user__text {
                 .text__name {
                   font-weight: bold;
-                  text-align: center;
                   text-transform: capitalize;
                   margin-bottom: 10px;
                 }
@@ -479,20 +484,32 @@ body {
     top: 0;
     z-index: -1;
   }
-  &__download-btn {
-    color: white;
-    font-family: "Open Sans";
-    font-weight: 600;
-    line-height: 25px;
-    font-size: 24px;
-    padding: 25px 100px;
-    margin: 50px 0;
-    background-color: transparent;
-    border: 1px solid white;
-    cursor: pointer;
+  .container-block {
+    display: block;
+    .desing__title {
+      color: $white;
+      &::after {
+        border: 1px solid $white;
+        background: $white;
+      }
+    }
+    .desing__subtitle {
+      color: $white;
+    }
+    .desing__download-btn {
+      color: white;
+      font-family: "Open Sans";
+      font-weight: 600;
+      line-height: 25px;
+      font-size: 24px;
+      padding: 25px 100px;
+      margin: 50px 0;
+      background-color: transparent;
+      border: 1px solid $white;
+      cursor: pointer;
+    }
   }
 }
-
 
 .contact__title {
   font-family: "Raleway";
