@@ -29,6 +29,9 @@ $pink: #ec7979;
 $lightgrey: #e2e2e2;
 $mediumgrey: #f5f5f5;
 $darkgrey: #86878b;
+$bordergrey: #bdbdbd;
+$socialgrey: #cccccc;
+$tabsgrey: #c6cbcd;
 $grey: #808080;
 $rose: #f8efef;
 
@@ -104,17 +107,15 @@ body {
   right: 20px;
   padding: 10px;
 }
-
 .menu-check {
   display: none;
 }
-
 .header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-color: black;
+  background-color: $black;
   .container-block {
     padding: 0;
     .header__menu {
@@ -237,22 +238,22 @@ body {
             width: 100%;
             padding: 15px;
             border: none;
-            border-bottom: 1px solid rgb(189, 189, 189);
+            border-bottom: 1px solid $bordergrey;
             font-family: "Open Sans";
             font-size: 14px;
-            color: rgb(189, 189, 189);
+            color: $bordergrey;
           }
         }
       }
       .main-form__register-btn {
         width: 100%;
-        color: white;
+        color: $white;
         font-family: "Open Sans";
         font-weight: 600;
         font-size: 18px;
         padding: 25px;
-        background-color: #ec7979;
-        border: 1px solid #ec7979;
+        background-color: $pink;
+        border: 1px solid $pink;
         border-radius: 0px 0px 5px 5px;
         cursor: pointer;
       }
@@ -263,7 +264,7 @@ body {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  background: #f8efef;
+  background: $rose;
   .container-block {
     padding: 0;
     .social-text {
@@ -274,7 +275,7 @@ body {
         font-weight: 700;
       }
       .social-text__subtitle {
-        color: #86878b;
+        color: $darkgrey;
         font-weight: 400;
         margin-bottom: 10px;
       }
@@ -287,7 +288,7 @@ body {
       flex-wrap: wrap;
       & i {
         margin: 25px;
-        color: #cccccc;
+        color: $socialgrey;
       }
     }
   }
@@ -299,7 +300,7 @@ body {
     .tabs-links {
       display: flex;
       & a {
-        color: black;
+        color: $black;
         padding: 10px 30px;
         font-size: 14px;
         line-height: 19px;
@@ -307,7 +308,7 @@ body {
         text-decoration: none;
       }
       & a:first-child {
-        border: 1px solid grey;
+        border: 1px solid $tabsgrey;
         border-radius: 5px 5px 0px 0px;
         position: relative;
       }
@@ -316,14 +317,14 @@ body {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: white;
+        background: $white;
         left: 0;
         bottom: -25px;
       }
     }
     .tabs-info {
       display: flex;
-      border: 1px solid gray;
+      border: 1px solid $tabsgrey;
       .tabs-info__text {
         flex: 1 1 70%;
         padding: 25px 10px 0px 50px;
@@ -342,7 +343,7 @@ body {
         .text__download-btn {
           max-width: 50%;
           min-width: 30%;
-          color: white;
+          color: $white;
           text-align: center;
           font-family: "Open Sans";
           font-weight: 600;
@@ -617,9 +618,9 @@ body {
             height: 100%;
             font-family: "Open Sans";
             font-size: 14px;
-            color: #bdbdbd;
+            color: $bordergrey;
             border: none;
-            border-bottom: 1px solid #bdbdbd;
+            border-bottom: 1px solid $bordergrey;
           }
         }
       }
@@ -628,20 +629,19 @@ body {
         justify-content: center;
         .contact-form__sent-btn {
           color: white;
-          background: #ec7979;
-          border: 1px solid #ec7979;
+          background: $pink;
+          border: 1px solid $pink;
         }
       }
     }
   }
 }
-
 .footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-color: black;
+  background-color: $black;
   .container-block {
     display: block;
     padding: 0;
@@ -652,7 +652,7 @@ body {
       flex-wrap: wrap;
       i {
         margin: 25px;
-        color: #cccccc;
+        color: $socialgrey;
       }
     }
     .footer__copyright {
@@ -660,7 +660,7 @@ body {
       font-size: 18px;
       align-items: center;
       text-align: center;
-      color: rgba(255, 255, 255, 0.5);
+      color: $socialgrey;
       margin-bottom: 10px;
     }
   }
@@ -704,7 +704,7 @@ body {
     left: 0;
     width: 100vw;
     z-index: 4;
-    background: black;
+    background: $black;
   }
 
   .menu-check:checked + .header .container-block {
@@ -731,8 +731,8 @@ body {
   }
 
   .header__menu a:hover {
-    color: white;
-    background: #ec7979;
+    color: $white;
+    background: $pink;
   }
   .main .container-block {
     flex-wrap: wrap;
