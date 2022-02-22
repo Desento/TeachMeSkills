@@ -23,13 +23,10 @@ const swiper = new Swiper('.customers-slider', {
       el: '.swiper-scrollbar',
     },
     breakpoints: {
-        // when window width is <= 320px
         576: {
           slidesPerView: 1,
           spaceBetween: 30
         },
-        // when window width is <= 480px
-        
         640: {
           slidesPerView: 3,
           spaceBetween: 30

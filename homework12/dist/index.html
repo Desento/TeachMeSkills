@@ -44,9 +44,12 @@
                 Try Your
                 <span class="main-form__title_colortext">FREE</span> Trial Today
               </div>
-              <input class="main-form__input" type="text" placeholder="Name">
-              <input class="main-form__input" type="text" placeholder="Password">
-              <input class="main-form__input" type="text" placeholder="Email">
+              <div class="main-form__input-wrapper"><input class="main-form__input" type="text" placeholder="Name"></div>
+              <div class="main-form__input-wrapper"><input class="main-form__input" type="text" placeholder="Password"></div>
+              <div class="main-form__input-wrapper"><input class="main-form__input" type="text" placeholder="Email"></div>
+              
+              
+              
             </div>
             <button type="submit" class="main-form__register-btn">
               Get Started
@@ -282,13 +285,20 @@
         </div>
         <div class="contact-form">
           <form action="#">
-            <div class="contact-form__input-line">
-              <div class="input-line__input">
-                <input class="contact-form__input" type="text" placeholder="Name">
-                <input class="contact-form__input" type="text" placeholder="Email">
-                <input class="contact-form__input" type="text" placeholder="Password">
+            <div class="contact-form__input-area">
+              <div class="input-area__wrapper">
+                <div class="wrapper__item-input">
+                  <input class="contact-form__input" type="text" placeholder="Name">
+                </div>
+                <div class="wrapper__item-input">
+                  <input class="contact-form__input" type="text" placeholder="Email">
+                </div>
+                <div class="wrapper__item-input">
+                  <input class="contact-form__input" type="text" placeholder="Password">
+                </div>
               </div>
-              <textarea class="contact-form__textarea" name="" id="" cols="30" rows="10" placeholder="Messange"></textarea>
+              <div class="text-area__wrapper"><textarea class="input-area__textarea" name="" id="" cols="30" rows="10" placeholder="Messange"></textarea></div>
+              
             </div>
             <div class="contact-form__sent">
               <button type="submit" class="contact-form__sent-btn secondary-btn">
