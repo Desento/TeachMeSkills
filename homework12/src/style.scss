@@ -92,17 +92,26 @@ body {
   font-size: 18px;
   cursor: pointer;
   transition: 1s;
+  color: $white;
+  background: transparent;
+  border: 1px solid $white;
+
   &:hover {
     background: grey;
   }
 }
+.secondary-btn_color {
+  background: $pink;
+  border: 1px solid $pink;
+}
+
 .mobile-menu-button {
   display: none;
   cursor: pointer;
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 20px;
+  top: 40px;
   z-index: 9;
   right: 20px;
   padding: 10px;
@@ -117,7 +126,6 @@ body {
   position: relative;
   background-color: $black;
   .container-block {
-    padding: 0;
     .header__menu {
       display: flex;
       list-style: none;
@@ -627,11 +635,6 @@ body {
       &__sent {
         display: flex;
         justify-content: center;
-        .contact-form__sent-btn {
-          color: white;
-          background: $pink;
-          border: 1px solid $pink;
-        }
       }
     }
   }
@@ -678,6 +681,9 @@ body {
     & img {
       max-width: 100%;
     }
+  }
+  .container-block {
+    padding: 25px;
   }
 }
 
@@ -750,6 +756,22 @@ body {
   .social-link {
     flex: 1 1 33.333%;
   }
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .title-item {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .subtitle-item {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 @media (max-width: 576px) {
   .secondary-btn {
@@ -782,12 +804,15 @@ body {
       }
       .main-form {
         max-width: 100%;
+        flex: 1;
+        margin: 0 auto;
       }
     }
   }
 
   .social {
     .container-block {
+      padding: 25px;
       display: block;
       text-align: center;
     }
@@ -824,6 +849,21 @@ body {
     .container-block {
       .about__container-grid {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+    }
+  }
+  .contact {
+    .container-block {
+      .contact-form {
+        .contact-form__input-area {
+          display: block;
+          .input-area__wrapper {
+            height: 250px;
+          }
+          .text-area__wrapper {
+            margin: 25px auto;
+          }
+        }
       }
     }
   }
