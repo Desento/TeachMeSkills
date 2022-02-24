@@ -110,7 +110,7 @@
 75D:\TeachMeSkills\TeachMeSkills\homework12\node_modules\domhandler\readme.md132898551186183334 0
 74D:\TeachMeSkills\TeachMeSkills\homework12\node_modules\nan\doc\callback.md132898551213941546 0
 68D:\TeachMeSkills\TeachMeSkills\homework12\src\img\instagram_icon.svg132897594925310465 0
-56D:\TeachMeSkills\TeachMeSkills\homework12\src\style.scss132901119035453299 0
+56D:\TeachMeSkills\TeachMeSkills\homework12\src\style.scss132901707990757274 0
 86D:\TeachMeSkills\TeachMeSkills\homework12\node_modules\postcss-calc\src\lib\reducer.js132898551192432932 0
 84D:\TeachMeSkills\TeachMeSkills\homework12\src\fronts\opensans\OpenSans-Regular.woff2132897594923500621 0
 72D:\TeachMeSkills\TeachMeSkills\homework12\node_modules\get-port\index.js132898551169464444 0
