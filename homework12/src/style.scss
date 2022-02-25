@@ -42,7 +42,7 @@ body {
   margin: 0;
 }
 .container-block {
-  padding: 25px;
+  padding: 40px 0;
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
@@ -288,6 +288,7 @@ body {
       .social-text__subtitle {
         color: $darkgrey;
         font-weight: 400;
+        margin-top: 10px;
       }
     }
     .social-link {
@@ -316,6 +317,7 @@ body {
         line-height: 19px;
         text-transform: uppercase;
         text-decoration: none;
+        white-space: pre;
       }
       & a:first-child {
         border: 1px solid $tabsgrey;
@@ -704,6 +706,11 @@ body {
           font-size: 10px;
         }
       }
+    }
+  }
+  .footer__social-icon {
+    a {
+      font-size: 10px;
     }
   }
 }

@@ -766,7 +766,7 @@ body {
   margin: 0;
 }
 .container-block {
-  padding: 25px;
+  padding: 40px 0;
   margin: 0 auto;
   max-width: 1200px;
   display: flex;
@@ -1011,6 +1011,7 @@ body {
 .social .container-block .social-text .social-text__subtitle {
   color: #86878b;
   font-weight: 400;
+  margin-top: 10px;
 }
 .social .container-block .social-link {
   flex: 1 1 66.666%;
@@ -1039,6 +1040,7 @@ body {
   line-height: 19px;
   text-transform: uppercase;
   text-decoration: none;
+  white-space: pre;
 }
 .tabs .container-block .tabs-links a:first-child {
   border: 1px solid #c6cbcd;
@@ -1410,6 +1412,10 @@ body {
     text-align: center;
   }
   .social .container-block .social-link a {
+    font-size: 10px;
+  }
+
+  .footer__social-icon a {
     font-size: 10px;
   }
 }
