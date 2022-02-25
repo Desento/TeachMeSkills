@@ -53,13 +53,13 @@ body {
         }
         .filter__subtitle {
           font-size: 16px;
-        }
-        .filter__subtitle::before {
-          content: "";
-          display: block;
-          border: 1px solid #edecef;
-          width: 100%;
-          margin: 10px 0;
+          &::before {
+            content: "";
+            display: block;
+            border: 1px solid #edecef;
+            width: 100%;
+            margin: 10px 0;
+          }
         }
         .filter__condition {
           display: flex;
@@ -81,9 +81,9 @@ body {
             border: none;
             -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
-          }
-          button:hover {
-            background: $dark;
+            &:hover {
+              background: $dark;
+            }
           }
         }
       }
@@ -109,23 +109,23 @@ body {
                 .location__text {
                   color: $red;
                   font-size: 10px;
-                }
-                .location__text::before {
-                  content: url(./img/station-logo.svg);
+                  &::before {
+                    content: url(./img/station-logo.svg);
+                  }
                 }
               }
               .item__name {
                 width: 50%;
                 font-size: 18px;
                 margin: 10px 0;
-              }
-              .item__name::after {
-                content: "";
-                display: block;
-                background: white;
-                border: 1px solid white;
-                width: 185%;
-                margin: 10px;
+                &::after {
+                  content: "";
+                  display: block;
+                  background: white;
+                  border: 1px solid white;
+                  width: 185%;
+                  margin: 10px;
+                }
               }
               .item__price {
                 font-size: 15px;
@@ -146,17 +146,17 @@ body {
                     font-size: 15px;
                     color: $blue;
                   }
-                }
-                .rating:first-child {
-                  .text::before {
-                    content: url(./img/google-logo.svg);
-                    margin-right: 3px;
+                  &:first-child {
+                    .text::before {
+                      content: url(./img/google-logo.svg);
+                      margin-right: 3px;
+                    }
                   }
-                }
-                .rating:nth-child(2) {
-                  .text::before {
-                    content: url(./img/yandex-logo.svg);
-                    margin-right: 3px;
+                  &:nth-child(2) {
+                    .text::before {
+                      content: url(./img/yandex-logo.svg);
+                      margin-right: 3px;
+                    }
                   }
                 }
               }
