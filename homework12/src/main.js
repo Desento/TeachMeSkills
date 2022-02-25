@@ -22,15 +22,15 @@ const swiper = new Swiper('.customers-slider', {
       el: '.swiper-scrollbar',
     },
     breakpoints: {
-        576: {
+        500: {
           slidesPerView: 1,
           spaceBetween: 30
         },
-        640: {
+        768: {
           slidesPerView: 2,
           spaceBetween: 30
         },
-        768: {
+        992: {
           slidesPerView: 3,
           spaceBetween: 30
         }
