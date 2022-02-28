@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms/TTNorms-Regular.eot");
+  src: url("./fonts/TTNorms/TTNorms-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms/TTNorms-Regular.woff2") format("woff2"),
+    url("./fonts/TTNorms/TTNorms-Regular.woff") format("woff"),
+    url("./fonts/TTNorms/TTNorms-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+$blue: #a1c4fd;
+$grey: #f2f6fa;
+$red: #ff0013;
+$dark: #5c5c6d;
+
+body * {
+  box-sizing: border-box;
+  font-family: "TTNorms";
+}
+body {
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  .container {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main-title {
+      font-size: 24px;
+      text-align: center;
+    }
+    .main-title::after {
+      content: "";
+      display: block;
+      background: $blue;
+      border: 1px solid $blue;
+      margin: 10px 0;
+    }
+    .main-content {
+      display: flex;
+      justify-content: center;
+      .main-content__filter {
+        flex: 1 1 20%;
+        .filter__title {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+        .filter__subtitle {
+          font-size: 16px;
+          &::before {
+            content: "";
+            display: block;
+            border: 1px solid #edecef;
+            width: 100%;
+            margin: 10px 0;
+          }
+        }
+        .filter__condition {
+          display: flex;
+          justify-content: space-between;
+          margin: 10px 0;
+          .condition-text {
+            font-size: 15px;
+            color: $dark;
+          }
+        }
+        .filter__use-btn {
+          margin-top: 10px;
+          button {
+            width: 100%;
+            padding: 10px;
+            color: white;
+            background: $blue;
+            border-radius: 5px;
+            border: none;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            &:hover {
+              background: $dark;
+            }
+          }
+        }
+      }
+      .main-content__catalog {
+        flex: 1 1 80%;
+        display: flex;
+        flex-wrap: wrap;
+        .catalog__item {
+          flex: 1 1 33.333%;
+          padding: 10px;
+
+          .item-wrap {
+            background: $grey;
+            .item__pic {
+              width: 100%;
+              img {
+                width: 100%;
+              }
+            }
+            .item__discription {
+              padding: 10px;
+              .item__location {
+                .location__text {
+                  color: $red;
+                  font-size: 10px;
+                  &::before {
+                    content: url(./img/station-logo.svg);
+                  }
+                }
+              }
+              .item__name {
+                width: 50%;
+                font-size: 18px;
+                margin: 10px 0;
+                &::after {
+                  content: "";
+                  display: block;
+                  background: white;
+                  border: 1px solid white;
+                  width: 185%;
+                  margin: 10px;
+                }
+              }
+              .item__price {
+                font-size: 15px;
+                color: $dark;
+                .color-text {
+                  color: $blue;
+                }
+              }
+              .item__rating {
+                display: flex;
+                margin: 10px 0;
+                .rating {
+                  padding: 5px;
+                  background: white;
+                  border-radius: 3px;
+                  margin-right: 4px;
+                  .text {
+                    font-size: 15px;
+                    color: $blue;
+                  }
+                  &:first-child {
+                    .text::before {
+                      content: url(./img/google-logo.svg);
+                      margin-right: 3px;
+                    }
+                  }
+                  &:nth-child(2) {
+                    .text::before {
+                      content: url(./img/yandex-logo.svg);
+                      margin-right: 3px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .main-content__filter {
+    flex: 1 1 30%;
+  }
+  .main-content__catalog {
+    flex: 1 1 70%;
+    .catalog__item {
+      flex: 1 1 50%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
