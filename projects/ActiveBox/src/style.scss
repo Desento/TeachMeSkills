@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fronts/raleway/Raleway-Regular.eot");
+  src: url("./fronts/raleway/Raleway-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fronts/raleway/Raleway-Regular.woff2") format("woff2"),
+    url("./fronts/raleway/Raleway-Regular.woff") format("woff"),
+    url("./fronts/raleway/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cardo-Italic";
+  src: url("./fronts/cardo-italic/cardoitalic.woff2") format("woff2"),
+    url("./fronts/cardo-italic/cardoitalic.woff") format("woff"),
+    url("./fronts/cardo-italic/cardoitalic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@import "../node_modules/swiper/swiper-bundle.css";
+body * {
+  box-sizing: border-box;
+}
+
+$black: #000000;
+$white: #ffffff;
+$title-black: #2d3033;
+$subtitle-grey: #6c7279;
+$red: #ff4343;
+$link-grey: #c6cbcd;
+$nav-grey: #babbc5;
+$activ-red: #e71414;
+$back-red: #ff4343cc;
+$activback-red: #b90c0ccc;
+
+.title {
+  font-family: "Raleway";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 900;
+}
+.subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.button {
+  font-family: "Raleway";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
