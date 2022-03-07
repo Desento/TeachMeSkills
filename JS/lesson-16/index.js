@@ -11,16 +11,16 @@
 // let x = 20;
 // let y = 58;
 // let z = 42;
-// let rezult = x+y+z;
+// let rezult = x + y + z;
 // console.log(rezult);
 
-// let sec = 60;
-// let minute = 60;
-// let hour = 24;
-// let day = 365;
+// const SECONDS_IN_MINUTE = 60;
+// const MINUTES_IN_HOUR = 60;
+// const HOURS_IN_DAY = 24;
+// const DAYS_IN_YEAR = 365;
 // let myAge = prompt('Vvedite Vash vozrast');
 // myAge = Number(myAge);
-// let myAgeInSeconds = myAge*day*hour*minute*sec;
+// let myAgeInSeconds = myAge * DAYS_IN_YEAR * HOURS_IN_DAY * MINUTES_IN_HOUR * SECONDS_IN_MINUTE;
 // alert(`Vash vozrast v secundah - ${myAgeInSeconds}`);
 
 // let count = 42;
@@ -39,7 +39,7 @@
 // let c = 'наледь';
 // let d = 'попрек';
 // let f = 'рубило';
-// let lengthWords = a.length+b.length+c.length+d.length+f.length;
+// const lengthWords = (a + b + c + d + f).length;
 // alert(lengthWords);
 
 // let a = 'доступ';
