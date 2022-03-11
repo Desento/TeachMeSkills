@@ -29,31 +29,29 @@
 // let apple = false;
 // let orange = true;
 // let shoulGoToWork;
-// if((key == true && documents == true && pen == true) && (apple == true || orange == true)){
-//     shoulGoToWork = true;
-// } else {
-//     shoulGoToWork = false;
+// if(key === true && documents === true && pen === true && (apple === true || orange === true)){
+// shoulGoToWork = key && documents && pen && (apple || orange);
 // }
 // console.log(shoulGoToWork);
 
 // let num = +prompt('Input a number');
-// if ((num % 3 == 0)&&(num % 5 == 0)) {
+// if ((num % 3 == 0) && (num % 5 == 0)) {
 //     console.log('FizBuz');
-// } else if ((num % 3 == 0)&&(num % 5 != 0)){
+// } else if ((num % 3 == 0) && (num % 5 != 0)){
 //     console.log('Buz');
-// } else if ((num % 3 != 0)&&(num % 5 == 0)){
+// } else if ((num % 3 != 0) && (num % 5 == 0)){
 //     console.log('Fiz');
 // }
 
 // let age = +prompt('How old are you?');
-// if (age >= 18) {
+// if (age > 18) {
 //     alert('You can drink a beer');
 // } else if (age >= 16) {
-//         alert('You can drink only Coca');
-//         alert('But you can smoke a sigarete, but dont tell you mum');
-//     } else {
-//         alert('You can drink only Coca');
-//     }
+//     alert('You can drink only Coca');
+//     alert('But you can smoke a sigarete, but dont tell you mum');
+// } else {
+//        alert('You can drink only Coca');
+// }
 
 // let result = prompt('Choose direction. South, north, west or east.')
 // switch (result){
@@ -71,22 +69,18 @@
 //     }
 //     case 'east': {
 //         alert('East you will become a developer');
-//         break
+//         break;
 //     }
 //     default:{
-//         alert('Try again.')
-//         break;
+//         alert('Try again.');
 //     }
 // }
 
 // let str = prompt('Input your name.');
-// console.log(str);
-// for (let i = 0; i <=str.length; i+=1) {
-//     console.log(str[i]);
+// for (let i = 0; i <=str.length; i += 1) {
 //     if (!str[i]) {
 //         continue;
-//     } 
-//     else if (i == 0 || str[i - 1] == ' ') {
+//     } else if (i == 0 || str[i - 1] == ' ') {
 //         str = str.substring(0, i) + str[i].toUpperCase() + str.substring(i + 1);
 //     } else {
 //         str = str.substring(0, i) + str[i].toLowerCase() + str.substring(i + 1);
@@ -105,7 +99,7 @@
 // let height = +prompt('Choose heigth of piramidas');
 // let str = '';
 // let hash = '#';
-// for (let i = 0; i < height; i+=1){
+// for (let i = 0; i < height; i += 1){
 //     str += hash;
 //     console.log(str);
 // }
