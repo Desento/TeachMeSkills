@@ -23,25 +23,23 @@
 //     i+=1;
 // }
 
-// let key = true;
-// let documents = true;
-// let pen = true;
-// let apple = false;
-// let orange = true;
-// let shoulGoToWork;
-// if(key === true && documents === true && pen === true && (apple === true || orange === true)){
-// shoulGoToWork = key && documents && pen && (apple || orange);
-// }
-// console.log(shoulGoToWork);
+let key = true;
+let documents = true;
+let pen = true;
+let apple = false;
+let orange = true;
+let shoulGoToWork;
+shoulGoToWork = key && documents && pen && (apple || orange);
+console.log(shoulGoToWork);
 
-// let num = +prompt('Input a number');
-// if ((num % 3 == 0) && (num % 5 == 0)) {
-//     console.log('FizBuz');
-// } else if ((num % 3 == 0) && (num % 5 != 0)){
-//     console.log('Buz');
-// } else if ((num % 3 != 0) && (num % 5 == 0)){
-//     console.log('Fiz');
-// }
+let num = +prompt('Input a number');
+if ((num % 3 == 0) && (num % 5 == 0)) {
+    console.log('FizBuz');
+} else if ((num % 3 == 0) && (num % 5 != 0)){
+    console.log('Buz');
+} else if ((num % 3 != 0) && (num % 5 == 0)){
+    console.log('Fiz');
+}
 
 // let age = +prompt('How old are you?');
 // if (age > 18) {
