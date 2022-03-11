@@ -120,11 +120,13 @@
 //     alert('Моя собака слишком маленькая, чтобы она что-то делала');
 // }
 // 
+
 // let n = +prompt();
-// for (let i = 2; i <= n; i++) { 
-//   for (let j = 2; j < i; j++) { 
+// nextPrime:
+// for (let i = 2; i <= n; i += 1) { 
+//   for (let j = 2; j < i; j += 1) { 
 //     if (i % j == 0) 
-//     continue ; 
+//     continue nextPrime; 
 //   }
 //   console.log(i); 
 // }
