@@ -57,14 +57,9 @@
 
 // function trimString(str, from, to){
 //     let result = '';
-//     console.log(result)
 //     str = String(str);
 //     for ( let i = from; i <= to; i +=1) {
-//         console.log(i)
-//         console.log(result)
 //         result = result + str[i];
-//         console.log(str[i])
-//         console.log(result)
 //     }
 //     return result;
 // }
@@ -89,3 +84,55 @@
 //     return n === true ? (function (){console.log(x);})() : (function (){console.log(y);})()
 // }
 // alert(fooboo(true,'foo','boo'));
+
+// function triangle(a,b,c){
+//     return a + b > c && a + c > b && b + c > a ? true : false;
+// }
+// alert(triangle(4,5,8));
+
+// function chocolat(n,m){
+//     return n > 0 && m > 0 ? ((n - 1) * m) + (m - 1) : 0;
+// }
+// alert(chocolat(3,5));
+
+// let balance = +prompt('Input your balance');
+// const TAX = 0.23;
+// const MOBILE_PRICE = 99.99;
+// const ACCESSORY_PRICE = 9.99;
+// let amount = 0;
+// let startShopping = confirm(`Only TODAY you can buy a new PHONE by ${MOBILE_PRICE}$ and accessory by ${ACCESSORY_PRICE}$. Do you want to star shopping? In our country tax is ${TAX}`);
+// if (startShopping === true) {
+//     while (amount < balance) {
+//     let offerMobile = confirm('Do you want to buy a mobile?')
+//         if (offerMobile === true) {
+//             amount += MOBILE_PRICE;
+//             alert('Amount is ' + formatAmount(amount) + ' without TAX');
+//             let offerAccessory = confirm('Do you want to buy an accessory?')
+//                 if (offerAccessory === true){
+//                     amount += ACCESSORY_PRICE;
+//                     alert('Amount is ' + formatAmount(amount) + ' without TAX');
+//                 } else {
+//                     break;
+//                 }
+//         } else {
+//             break;
+//         }
+//     }
+//     let lack = balance - amount;
+//     amount = amount + calculateTax( amount );
+
+//     if (amount < balance) {
+//         alert('Сongratulation! You spend in our store ' + formatAmount(amount));
+//     } else {
+        
+//         alert('Unfortunately, you havent got enough money. You need ' + formatAmount(lack) + ' more :(')
+//     }
+// } else {
+//     alert('We are so sorry you are leaving :(');
+// }
+// function calculateTax(amount) {
+// 	return amount * TAX;
+// }
+// function formatAmount(amount) {
+// 	return amount.toFixed(2) + "$";
+// }
