@@ -51,7 +51,7 @@
 // alert(getSum(100));
 
 // function credit(n){
-//     return n * (0.17 * 5);
+//     return n * 0.17 * 5;
 // }
 // alert(credit(5000));
 
@@ -69,31 +69,37 @@
 //     let result = 0 ;
 //     while (n > 0) {
 //         result += n % 10
-//         n = Math.floor(n/10)
+//         n = Math.floor(n / 10)
 //     }
 //     return result;
 // }
 // alert(getSumNumbers(2021));
 
-// function getSum(a,b){
-//    return a === b ? a : a + getSum(a + 1,b)
+// function getSum(a, b) {
+//    return a === b ? a : a + getSum(a + 1, b)
 // }
-// alert(getSum(-1,2));
+// alert(getSum(-1, 2));
 
-// function fooboo(n,x,y){
-//     return n === true ? (function (){console.log(x);})() : (function (){console.log(y);})()
+// function fooboo(shouldUseFirstFunction, foo, boo) {
+//     return shouldUseFirstFunction ? foo() : boo()
+//     // }
+// const foo = function() {
+//     console.log("i'm foo");
 // }
-// alert(fooboo(true,'foo','boo'));
+// const boo = function() {
+//     console.log("I'M BOO")
+// }
+// alert(fooboo(true, foo, boo));
 
-// function triangle(a,b,c){
+// function triangle(a, b, c){
 //     return a + b > c && a + c > b && b + c > a ? true : false;
 // }
-// alert(triangle(4,5,8));
+// alert(triangle(4, 5, 8));
 
-// function chocolat(n,m){
+// function findMyChocolat(n,m){
 //     return n > 0 && m > 0 ? ((n - 1) * m) + (m - 1) : 0;
 // }
-// alert(chocolat(3,5));
+// alert(findMyChocolat(3, 5));
 
 // let balance = +prompt('Input your balance');
 // const TAX = 0.23;
@@ -101,22 +107,20 @@
 // const ACCESSORY_PRICE = 9.99;
 // let amount = 0;
 // let startShopping = confirm(`Only TODAY you can buy a new PHONE by ${MOBILE_PRICE}$ and accessory by ${ACCESSORY_PRICE}$. Do you want to star shopping? In our country tax is ${TAX}`);
-// if (startShopping === true) {
-//     while (amount < balance) {
-//     let offerMobile = confirm('Do you want to buy a mobile?')
-//         if (offerMobile === true) {
-//             amount += MOBILE_PRICE;
-//             alert('Amount is ' + formatAmount(amount) + ' without TAX');
-//             let offerAccessory = confirm('Do you want to buy an accessory?')
-//                 if (offerAccessory === true){
-//                     amount += ACCESSORY_PRICE;
-//                     alert('Amount is ' + formatAmount(amount) + ' without TAX');
-//                 } else {
-//                     break;
-//                 }
-//         } else {
+// if (!startShopping) {
+//     alert('We are so sorry you are leaving :(');
+// }   while (amount < balance) {
+//     let offerMobile = confirm('Do you want to buy a mobile?');
+//         if (!offerMobile) {
 //             break;
-//         }
+//         } amount += MOBILE_PRICE;
+//         alert('Amount is ' + formatAmount(amount) + ' without TAX');
+//         let offerAccessory = confirm('Do you want to buy an accessory?');
+//             if (!offerAccessory){
+//                 break;
+//             }
+//             amount += ACCESSORY_PRICE;
+//             alert('Amount is ' + formatAmount(amount) + ' without TAX');
 //     }
 //     let lack = balance - amount;
 //     amount = amount + calculateTax( amount );
@@ -124,12 +128,8 @@
 //     if (amount < balance) {
 //         alert('Сongratulation! You spend in our store ' + formatAmount(amount));
 //     } else {
-        
 //         alert('Unfortunately, you havent got enough money. You need ' + formatAmount(lack) + ' more :(')
-//     }
-// } else {
-//     alert('We are so sorry you are leaving :(');
-// }
+//     } 
 // function calculateTax(amount) {
 // 	return amount * TAX;
 // }
