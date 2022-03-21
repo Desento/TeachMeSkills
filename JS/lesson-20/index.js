@@ -75,12 +75,7 @@
 
 // let input = prompt('Input word');
 // function palindrom (input) {
-//     input = input.split('', input.length);
-//     for ( let i = 0; i < input.length /2 ; i += 1){
-//         if (input[i] !== input[input.length - 1 - i]) {
-//             return 'It is not a palindrome';
-//         } {return 'It is a palindrome';}
-//     }
+//     return Array.from(input).reverse().join('') === input;
 // }
 // alert(palindrom(input));
 
@@ -95,7 +90,7 @@
 // for ( let i = 0; i < matrix.length; i += 1){
 //     // sum += matrix[i];
 //     for (let j = 0; j < matrix [i].length; j += 1){
-//         sum += matrix [i][j];
+//         sum += matrix[i][j];
 //         counter += 1;
 //         console.log(i, j, sum, counter)
 //     }
@@ -108,21 +103,21 @@
 // for (let i = 0; i < mixedNumbers.length; i += 1) {
 //     if (mixedNumbers[i] < 0) {
 //         negativeNumber.push(mixedNumbers[i]);
-//     } else if (mixedNumbers[i] > 0) {
+//     } else {
 //         positiveNumber.push(mixedNumbers[i]);
 //     }
 // }
 // console.log(positiveNumber);
 // console.log(negativeNumber);
 
-// const arrey = [];
+// const array = [];
 // const numbersInCub = [];
 // for ( let i = 0; i < 5; i += 1) {
-//     arrey.push(getRandomInt());
+//     array.push(getRandomInt());
 // }
-// console.log(arrey);
-// for ( let i = 0; i < arrey.length; i += 1) {
-//     numbersInCub.push(Math.pow(arrey[i],3));
+// console.log(array);
+// for ( let i = 0; i < array.length; i += 1) {
+//     numbersInCub.push(Math.pow(array[i], 3));
 // }
 // console.log(numbersInCub);
 // function getRandomInt() {
