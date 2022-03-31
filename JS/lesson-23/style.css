@@ -1,0 +1,73 @@
+.container {
+  border: 2px solid black;
+  border-color: black;
+  border-radius: 10px;
+  background-color: gray;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.container-wrapper > input {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.container-wrapper button {
+  background: #18e7cf;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  min-width: 100px;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+.todo-item__btn-check{
+  background: #18e7cf;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+}
+.todo-item__todo-text{
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: white;
+  min-width: 300px;
+  max-height: 20px;
+  margin: auto 0;
+}
+.todo-item__info-area{
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  justify-content: space-between;
+}
+.info-area__btn-delete{
+  background: #18e7cf;
+  border-radius: 5px;
+  border: 2px solid black;
+  max-width: 26px;
+  margin-left: 28px;
+}
+
+.info-area__date-field{
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 5px 10px;
+  background-color: white;
+}
