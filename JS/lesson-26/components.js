@@ -16,4 +16,4 @@ export const addTodoButton = document.createElement('button')
 addTodoButton.textContent = 'Add'
 addTodoButton.classList.add('btn')
 
-export const transformedTodos = todosDB.map(getTodo)
+
