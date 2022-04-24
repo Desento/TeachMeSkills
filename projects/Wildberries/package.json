@@ -1,0 +1,18 @@
+{
+  "name": "wildberries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "root.js",
+  "scripts": {
+    "dev": "parcel ./topSale.html --no-source-maps --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parsel": "^0.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
