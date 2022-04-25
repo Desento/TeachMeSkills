@@ -514,18 +514,21 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"l1HD1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _topSale = require("./topSale");
-var _topSaleDefault = parcelHelpers.interopDefault(_topSale);
-const sale = document.getElementById('sale');
-fetch('https://62593b6a43fda1299a0a95e4.mockapi.io/goods').then((response)=>response.json()
-).then((response)=>_topSaleDefault.default(response, sale)
-);
-
-},{"./topSale":"70LHW","@parcel/transformer-js/src/esmodule-helpers.js":"j7FRh"}],"70LHW":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-exports.default = (goods, root)=>{
+function hotPromotion(promotions, hotPromotion1) {
+    const hotPromotionContainer = document.createElement('div');
+    hotPromotionContainer.classList.add('customers-slider swiper-container');
+    const hotPromotionWrapper = document.createElement('div');
+    hotPromotionWrapper.classList.add('customers-slider swiper-wrapper');
+    for(var key in promotions){
+        const hotPromotionSlide = document.createElement('div');
+        hotPromotionSlide.classList.add('customers-slider swiper-slide');
+        hotPromotionSlide.scr = promotions[key].img;
+        hotPromotionWrapper.append(hotPromotionSlide);
+    }
+    hotPromotionContainer.append(hotPromotionWrapper);
+    hotPromotion1.append(hotPromotionContainer);
+}
+function topSale(goods, root) {
     const topSaleElement = document.createElement('div');
     topSaleElement.classList.add('container-wrapper');
     for(var key in goods){
@@ -563,36 +566,20 @@ exports.default = (goods, root)=>{
         topSaleElement.append(goodsCard);
     }
     root.append(topSaleElement);
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"j7FRh"}],"j7FRh":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule' || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
+}
+const sale = document.getElementById('sale');
+const hotSale = document.getElementById('hot-sale');
+const urlGoods = 'https://62593b6a43fda1299a0a95e4.mockapi.io/goods';
+const urlPromotions = 'https://62593b6a43fda1299a0a95e4.mockapi.io/HotSale';
+async function getData(url) {
+    const response = await fetch(url);
+    return response.json();
+}
+async ()=>{
+    const goods = await getData(urlGoods);
+    sale = topSale(goods, sale);
+    const hotSaleImg = await getData(urlPromotions);
+    hotSale = hotPromotion(hotSaleImg, hotSale);
 };
 
 },{}]},["l4FI8","l1HD1"], "l1HD1", "parcelRequireaad3")
