@@ -1,19 +1,19 @@
-function hotPromotion (promotions, hotPromotion) {
+function hotPromotion (promotions, hotSale) {
   const hotPromotionContainer = document.createElement('div');
-  hotPromotionContainer.classList.add('customers-slider swiper-container');
+  hotPromotionContainer.classList.add('customers-slider', 'swiper-container');
   const hotPromotionWrapper = document.createElement('div');
-  hotPromotionWrapper.classList.add('customers-slider swiper-wrapper');
+  hotPromotionWrapper.classList.add('customers-slider','swiper-wrapper');
   for (var key in promotions) {
       const hotPromotionSlide = document.createElement('div');
-      hotPromotionSlide.classList.add('customers-slider swiper-slide');
+      hotPromotionSlide.classList.add('customers-slider','swiper-slide');
       hotPromotionSlide.scr = promotions[key].img;
       hotPromotionWrapper.append(hotPromotionSlide);
   }
   hotPromotionContainer.append(hotPromotionWrapper);
-  hotPromotion.append(hotPromotionContainer);
+  hotSale.append(hotPromotionContainer);
 };
 
-function topSale (goods, root) {
+function topSale (goods, sale) {
   const topSaleElement = document.createElement('div');
   topSaleElement.classList.add('container-wrapper');
   for (var key in goods) {
@@ -50,11 +50,11 @@ function topSale (goods, root) {
       goodsCard.append(goodsCardImage, goodsCardCost, goodsCardName);
       topSaleElement.append(goodsCard);
   }
-  root.append(topSaleElement);
+  sale.append(topSaleElement);
 }
 
-const sale = document.getElementById('sale');
-const hotSale = document.getElementById('hot-sale');
+let sale = document.getElementById('sale');
+let hotSale = document.getElementById('hot-sale');
 const urlGoods = 'https://62593b6a43fda1299a0a95e4.mockapi.io/goods';
 const urlPromotions = 'https://62593b6a43fda1299a0a95e4.mockapi.io/HotSale';
 
@@ -62,10 +62,10 @@ async function getData(url) {
  const response = await fetch(url);
  return response.json();
 }
-async () => {
+(async () => {
 const goods = await getData(urlGoods);
-sale = topSale(goods, sale);
+topSale(goods, sale);
 
 const hotSaleImg = await getData(urlPromotions);
-hotSale = hotPromotion(hotSaleImg, hotSale);
-}
+hotPromotion(hotSaleImg, hotSale);
+})()
