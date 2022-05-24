@@ -1,17 +1,20 @@
-function hotPromotion (promotions, hotSale) {
-  const hotPromotionContainer = document.createElement('div');
-  hotPromotionContainer.classList.add('customers-slider', 'swiper-container');
-  const hotPromotionWrapper = document.createElement('div');
-  hotPromotionWrapper.classList.add('customers-slider','swiper-wrapper');
-  for (var key in promotions) {
-      const hotPromotionSlide = document.createElement('div');
-      hotPromotionSlide.classList.add('customers-slider','swiper-slide');
-      hotPromotionSlide.scr = promotions[key].img;
-      hotPromotionWrapper.append(hotPromotionSlide);
-  }
-  hotPromotionContainer.append(hotPromotionWrapper);
-  hotSale.append(hotPromotionContainer);
-};
+// function hotPromotion (promotions, hotSale) {
+//   const hotPromotionContainer = document.createElement('div');
+//   hotPromotionContainer.classList.add('swiper');
+//   const hotPromotionWrapper = document.createElement('div');
+//   hotPromotionWrapper.classList.add('swiper-wrapper');
+//   for (var key in promotions) {
+//       const hotPromotionSlide = document.createElement('div');
+//       hotPromotionSlide.classList.add('swiper-slide');
+//       const hotPromotionSlideImg = document.createElement('img');
+//       hotPromotionSlideImg.classList.add('slide__img')
+//       hotPromotionSlideImg.src = promotions[key].img;
+//       hotPromotionSlide.append(hotPromotionSlideImg);
+//       hotPromotionWrapper.append(hotPromotionSlide);
+//   }
+//   hotPromotionContainer.append(hotPromotionWrapper);
+//   hotSale.append(hotPromotionContainer);
+// };
 
 function topSale (goods, sale) {
   const topSaleElement = document.createElement('div');
@@ -54,9 +57,9 @@ function topSale (goods, sale) {
 }
 
 let sale = document.getElementById('sale');
-let hotSale = document.getElementById('hot-sale');
+// let hotSale = document.getElementById('hot-sale');
 const urlGoods = 'https://62593b6a43fda1299a0a95e4.mockapi.io/goods';
-const urlPromotions = 'https://62593b6a43fda1299a0a95e4.mockapi.io/HotSale';
+// const urlPromotions = 'https://62593b6a43fda1299a0a95e4.mockapi.io/HotSale';
 
 async function getData(url) {
  const response = await fetch(url);
@@ -66,6 +69,7 @@ async function getData(url) {
 const goods = await getData(urlGoods);
 topSale(goods, sale);
 
-const hotSaleImg = await getData(urlPromotions);
-hotPromotion(hotSaleImg, hotSale);
+// const hotSaleImg = await getData(urlPromotions);
+// hotPromotion(hotSaleImg, hotSale);
+
 })()

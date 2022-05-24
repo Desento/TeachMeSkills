@@ -75,3 +75,25 @@
   text-decoration: line-through;
 }
 
+.customers {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container-block {
+  display: block;
+}
+
+.swiper-container {
+  max-width: 100%;
+  margin: 50px 0;
+}
+
+.swiper-slide {
+  padding: 0 20px;
+}
+
+.user__logo {
+  margin-right: 15px;
+}
+
